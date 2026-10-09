@@ -1,0 +1,56 @@
+name: Plan data error
+description: A plan on muttayi.com shows wrong price, validity, data, calls, SMS or subscriptions — or a plan is missing / no longer exists.
+title: "[Plan error] "
+labels: ["plan-error"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep Muttayi accurate! If you used the **Report** button on a plan card, most fields below are already filled in.
+        Please check the plan on the operator's official website or app before reporting.
+  - type: dropdown
+    id: operator
+    attributes:
+      label: Operator
+      options:
+        - Airtel
+        - Jio
+        - BSNL
+        - Vi
+    validations:
+      required: true
+  - type: input
+    id: circle
+    attributes:
+      label: Circle / State
+      description: Required for BSNL and Vi (plans differ by circle).
+      placeholder: e.g. KL (Kerala)
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: What is wrong?
+      options:
+        - Plan doesn't exist
+        - Plan is missing from Muttayi
+        - Incorrect price
+        - Incorrect validity
+        - Incorrect data
+        - Incorrect voice
+        - Incorrect SMS
+        - Incorrect OTT benefits
+        - Other issue
+    validations:
+      required: true
+  - type: textarea
+    id: plan_details
+    attributes:
+      label: Plan as shown on Muttayi
+      description: Price, validity, data, calls, SMS and subscriptions as Muttayi shows them.
+      render: text
+  - type: textarea
+    id: description
+    attributes:
+      label: What the correct details are
+      description: What the operator's website/app actually says. A link or screenshot helps a lot.
+    validations:
+      required: true

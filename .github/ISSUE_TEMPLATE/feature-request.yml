@@ -1,0 +1,27 @@
+name: Feature request
+description: Suggest a new feature or improvement for muttayi.com.
+title: "[Feature] "
+labels: ["feature"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like Muttayi to do?
+      description: Describe the feature and the problem it solves for you.
+    validations:
+      required: true
+  - type: dropdown
+    id: operator
+    attributes:
+      label: Related operator (if any)
+      options:
+        - All / not operator-specific
+        - Airtel
+        - Jio
+        - BSNL
+        - Vi
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Examples, screenshots, or links to similar tools.

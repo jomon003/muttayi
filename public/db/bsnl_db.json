@@ -1,0 +1,3295 @@
+[
+  {
+    "plan_details": {
+      "planName": "STV-16",
+      "price": 16,
+      "validity": {
+        "days": 1,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 2.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 1,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "HP",
+      "HR",
+      "JH",
+      "JK",
+      "KL",
+      "KO",
+      "LD",
+      "ML",
+      "MN",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "RJ",
+      "SK",
+      "TR",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "Mini-16",
+      "price": 16,
+      "validity": {
+        "days": 1,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 2.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 1,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AP",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "KA",
+      "MH",
+      "MP",
+      "PY",
+      "TN",
+      "TS"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "STVPoliceCUG-49",
+      "price": 49,
+      "validity": {
+        "days": 30,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 10.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": 300
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": true
+      },
+      "freebiesValidity": {
+        "days": 30,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "KL",
+      "LD"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "2G/3G-DATA-51",
+      "price": 51,
+      "validity": {
+        "days": 60,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 0.048828125,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 60,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AR",
+      "AS",
+      "BR",
+      "JH",
+      "KO",
+      "MN"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "STV-DATA-58",
+      "price": 58,
+      "validity": {
+        "days": 7,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 8.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 7,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "STVPoliceCUG-69",
+      "price": 69,
+      "validity": {
+        "days": 30,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": {
+          "amount": 1.0,
+          "unit": "GB"
+        },
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": 300
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": true
+      },
+      "freebiesValidity": {
+        "days": 30,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "KL",
+      "LD"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "STV-99",
+      "price": 99,
+      "validity": {
+        "days": 14,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 0.048828125,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 14,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "STV-DATA-105",
+      "price": 105,
+      "validity": {
+        "days": 7,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 20.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 7,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "PV-107",
+      "price": 107,
+      "validity": {
+        "days": 20,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 3.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": 200,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 20,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "STV-141",
+      "price": 141,
+      "validity": {
+        "days": 30,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": {
+          "amount": 1.5,
+          "unit": "GB"
+        },
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": 200
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 30,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "GA",
+      "MH"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "STV-147",
+      "price": 147,
+      "validity": {
+        "days": 24,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 5.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 24,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "PV-148",
+      "price": 148,
+      "validity": {
+        "days": 22,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": null,
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 22,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "STV-149",
+      "price": 149,
+      "validity": {
+        "days": 21,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": {
+          "amount": 1.0,
+          "unit": "GB"
+        },
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 21,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "OR"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "PV-153",
+      "price": 153,
+      "validity": {
+        "days": 24,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": {
+          "amount": 1.0,
+          "unit": "GB"
+        },
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 24,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "PV-169",
+      "price": 169,
+      "validity": {
+        "days": 30,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 2.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 30,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "GA",
+      "MH"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "PV-197",
+      "price": 197,
+      "validity": {
+        "days": 35,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 5.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": 300,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": 100
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 35,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "DataSTV-198",
+      "price": 198,
+      "validity": {
+        "days": 30,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 40.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 30,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "HP",
+      "HR",
+      "JH",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "ML",
+      "MN",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "STV-198",
+      "price": 198,
+      "validity": {
+        "days": 30,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 40.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 30,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "MH",
+      "MP"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "PV-199",
+      "price": 199,
+      "validity": {
+        "days": 28,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": {
+          "amount": 2.0,
+          "unit": "GB"
+        },
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 28,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "SILVERJUBLI-225",
+      "price": 225,
+      "validity": {
+        "days": 30,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": {
+          "amount": 2.5,
+          "unit": "GB"
+        },
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 30,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "STV-228",
+      "price": 228,
+      "validity": {
+        "days": 30,
+        "unit": "days",
+        "isCalendarMonth": true
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": {
+          "amount": 2.0,
+          "unit": "GB"
+        },
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 30,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AP",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HR",
+      "KA",
+      "KL",
+      "LD",
+      "MH",
+      "MP",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "TN",
+      "TS"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "PV-229",
+      "price": 229,
+      "validity": {
+        "days": 30,
+        "unit": "days",
+        "isCalendarMonth": true
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": null,
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 30,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "COMBO-239",
+      "price": 239,
+      "validity": {
+        "days": 30,
+        "unit": "days",
+        "isCalendarMonth": true
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": {
+          "amount": 2.0,
+          "unit": "GB"
+        },
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 30,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AP",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "MP",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "TN",
+      "TS"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "COMBO-247",
+      "price": 247,
+      "validity": {
+        "days": 30,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 50.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 30,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "PV-292",
+      "price": 292,
+      "validity": {
+        "days": 46,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": null,
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 46,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "STV-299",
+      "price": 299,
+      "validity": {
+        "days": 30,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": {
+          "amount": 3.0,
+          "unit": "GB"
+        },
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 30,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "Voice-319",
+      "price": 319,
+      "validity": {
+        "days": 60,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 10.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": 300
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 60,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "MN",
+      "MP",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "PV-321",
+      "price": 321,
+      "validity": {
+        "days": 365,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 15.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": 650,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": 250
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 365,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "CN",
+      "PY",
+      "TN"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "STV-347",
+      "price": 347,
+      "validity": {
+        "days": 50,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": {
+          "amount": 2.0,
+          "unit": "GB"
+        },
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 50,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "PV-398",
+      "price": 398,
+      "validity": {
+        "days": 64,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": null,
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 64,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "Data-411",
+      "price": 411,
+      "validity": {
+        "days": 60,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 100.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 60,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "STV-439",
+      "price": 439,
+      "validity": {
+        "days": 80,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": null,
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": 300
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 80,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "STV-485",
+      "price": 485,
+      "validity": {
+        "days": 72,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 2.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 72,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "STV-498",
+      "price": 498,
+      "validity": {
+        "days": 82,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": {
+          "amount": 1.5,
+          "unit": "GB"
+        },
+        "totalLimit": null,
+        "postFUPSpeed": 80,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 82,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "ML",
+      "MZ",
+      "NL",
+      "TR"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "STV-WFH-599",
+      "price": 599,
+      "validity": {
+        "days": 70,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": {
+          "amount": 3.0,
+          "unit": "GB"
+        },
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 70,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "STV-776",
+      "price": 776,
+      "validity": {
+        "days": 180,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": {
+          "amount": 1.5,
+          "unit": "GB"
+        },
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": 1200
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 180,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "GA",
+      "MH"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "PV-897",
+      "price": 897,
+      "validity": {
+        "days": 165,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 24.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 165,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "PV-930",
+      "price": 930,
+      "validity": {
+        "days": 180,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 2.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 180,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "GA",
+      "MH"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "PV-997",
+      "price": 997,
+      "validity": {
+        "days": 150,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": {
+          "amount": 2.0,
+          "unit": "GB"
+        },
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 150,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "PV-1498",
+      "price": 1498,
+      "validity": {
+        "days": 300,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": null,
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 300,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "PV-1499",
+      "price": 1499,
+      "validity": {
+        "days": 300,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 32.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 300,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "STV-1551",
+      "price": 1551,
+      "validity": {
+        "days": 365,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": {
+          "amount": 2.0,
+          "unit": "GB"
+        },
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": 2400
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 365,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "GA",
+      "MH"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "PV-1859",
+      "price": 1859,
+      "validity": {
+        "days": 365,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 2.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 365,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "GA",
+      "MH"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "PV-1999",
+      "price": 1999,
+      "validity": {
+        "days": 330,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": {
+          "amount": 1.5,
+          "unit": "GB"
+        },
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 330,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "PV-2398",
+      "price": 2398,
+      "validity": {
+        "days": 365,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": {
+          "amount": 2.0,
+          "unit": "GB"
+        },
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 365,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "PV-2399",
+      "price": 2399,
+      "validity": {
+        "days": 365,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": {
+          "amount": 2.0,
+          "unit": "GB"
+        },
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 365,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "STV-2799",
+      "price": 2799,
+      "validity": {
+        "days": 365,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": true,
+        "dailyLimit": {
+          "amount": 3.0,
+          "unit": "GB"
+        },
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": true
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 365,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AN",
+      "AP",
+      "AR",
+      "AS",
+      "BR",
+      "CH",
+      "CN",
+      "CT",
+      "DD",
+      "DN",
+      "GA",
+      "GJ",
+      "HP",
+      "HR",
+      "JH",
+      "KA",
+      "KL",
+      "KO",
+      "LD",
+      "MH",
+      "ML",
+      "MN",
+      "MP",
+      "MZ",
+      "NL",
+      "OR",
+      "PB",
+      "PY",
+      "RJ",
+      "SK",
+      "TN",
+      "TR",
+      "TS",
+      "UE",
+      "UK",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "Data-Plan-2799",
+      "price": 2799,
+      "validity": {
+        "days": 365,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": null,
+        "totalLimit": null,
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 365,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "AP",
+      "CN",
+      "KA",
+      "PY",
+      "TN",
+      "TS"
+    ]
+  },
+  {
+    "plan_details": {
+      "planName": "Data-2799",
+      "price": 2799,
+      "validity": {
+        "days": 365,
+        "unit": "days",
+        "isCalendarMonth": false
+      },
+      "data": {
+        "isUnlimited": false,
+        "dailyLimit": null,
+        "totalLimit": {
+          "amount": 72.0,
+          "unit": "GB"
+        },
+        "postFUPSpeed": 40,
+        "hasSpeedReduction": false
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null,
+        "coverage": {
+          "local": true,
+          "std": true,
+          "roaming": true,
+          "mtnlIncluded": true
+        }
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalLimit": null
+      },
+      "specialConditions": {
+        "isGP2": false,
+        "isJK20": false,
+        "isCUGPolice": false
+      },
+      "freebiesValidity": {
+        "days": 365,
+        "isSameAsPlanValidity": true
+      }
+    },
+    "available_circles": [
+      "OR"
+    ]
+  }
+]

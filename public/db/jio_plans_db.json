@@ -1,0 +1,2857 @@
+{
+  "plans": [
+    {
+      "id": "jio_349_28_1",
+      "name": "Jio Popular Plans Plan",
+      "price": 349,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 56.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_200_28_2",
+      "name": "IND VS ENG, 15 OTT + 30 GB",
+      "price": 200,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 30.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "amazonPrime": true,
+        "hotstar": true,
+        "zee5": true,
+        "lionsgate": true,
+        "discoveryPlus": true,
+        "sunNxt": true,
+        "hoichoi": true,
+        "fancode": true,
+        "jioTV": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_3599_365_3",
+      "name": "5G + AI + MOVIES + HOLLYWOOD",
+      "price": 3599,
+      "validityDays": 365,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.5
+      },
+      "totalData": {
+        "amount": 912.5
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_399_28_4",
+      "name": "SPORTS+GAMING+MOVIE+HOLLYWOOD",
+      "price": 399,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.5
+      },
+      "totalData": {
+        "amount": 70.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "fancode": true,
+        "hotstar": true,
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_899_90_5",
+      "name": "5G + AI + JIOHOTSTAR",
+      "price": 899,
+      "validityDays": 90,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 200.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_500_28_6",
+      "name": "MEGA CONTENT PLAN",
+      "price": 500,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 56.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "amazonPrime": true,
+        "hotstar": true,
+        "zee5": true,
+        "lionsgate": true,
+        "discoveryPlus": true,
+        "sunNxt": true,
+        "hoichoi": true,
+        "fancode": true,
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_111_28_7",
+      "name": "FLEXI YOUTH AND GAMING PACK",
+      "price": 111,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 5.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_459_28_8",
+      "name": "YOUTH & GAMING PLAN",
+      "price": 459,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 61.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "fancode": true,
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_798_40_9",
+      "name": "FOOTBALL PASS",
+      "price": 798,
+      "validityDays": 40,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 1.0
+      },
+      "totalData": {
+        "amount": 40.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "zee5": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_149_30_10",
+      "name": "JIOHOTSTAR DATA PACK",
+      "price": 149,
+      "validityDays": 30,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 10.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "hotstar": true
+      },
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_999_98_11",
+      "name": "5G + AI + JIOHOTSTAR",
+      "price": 999,
+      "validityDays": 98,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 196.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_77_5_12",
+      "name": "SONY LIV DATA PACK",
+      "price": 77,
+      "validityDays": 5,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 3.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_55_30_13",
+      "name": "1000+ LIVE TV CHANNELS",
+      "price": 55,
+      "validityDays": 30,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": null,
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "discoveryPlus": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_450_36_14",
+      "name": "5G + AI + JIOHOTSTAR",
+      "price": 450,
+      "validityDays": 36,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 72.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_1029_84_15",
+      "name": "AMAZON PRIME INCLUDED",
+      "price": 1029,
+      "validityDays": 84,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 168.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "amazonPrime": true,
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_198_14_16",
+      "name": "Jio Popular Plans Plan",
+      "price": 198,
+      "validityDays": 14,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 28.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_3999_365_17",
+      "name": "FANCODE + AI +MOVIES+HOLLYWOOD",
+      "price": 3999,
+      "validityDays": 365,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.5
+      },
+      "totalData": {
+        "amount": 912.5
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "fancode": true,
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_2025_200_18",
+      "name": "5G + AI + MOVIES + HOLLYWOOD",
+      "price": 2025,
+      "validityDays": 200,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.5
+      },
+      "totalData": {
+        "amount": 500.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_1299_84_19",
+      "name": "NETFLIX INCLUDED",
+      "price": 1299,
+      "validityDays": 84,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 168.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "netflix": "Mobile",
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_1049_84_20",
+      "name": "SONYLIV + ZEE5 INCLUDED",
+      "price": 1049,
+      "validityDays": 84,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 168.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "zee5": true,
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_1028_84_21",
+      "name": "₹50 CASHBACK + SWIGGY ONE",
+      "price": 1028,
+      "validityDays": 84,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 168.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_949_84_22",
+      "name": "JIOHOTSTAR INCLUDED",
+      "price": 949,
+      "validityDays": 84,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 168.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "hotstar": true,
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_859_84_23",
+      "name": "5G + AI + JIOHOTSTAR",
+      "price": 859,
+      "validityDays": 84,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 168.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_749_72_24",
+      "name": "5G + AI + JIOHOTSTAR",
+      "price": 749,
+      "validityDays": 72,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 164.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_719_70_25",
+      "name": "5G + AI + JIOHOTSTAR",
+      "price": 719,
+      "validityDays": 70,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 140.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_629_56_26",
+      "name": "5G + AI + JIOHOTSTAR",
+      "price": 629,
+      "validityDays": 56,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 112.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_445_28_27",
+      "name": "10 OTTS INCLUDED",
+      "price": 445,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 56.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "zee5": true,
+        "lionsgate": true,
+        "discoveryPlus": true,
+        "sunNxt": true,
+        "hoichoi": true,
+        "fancode": true,
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_889_84_28",
+      "name": "JIOSAAVN PRO INCLUDED",
+      "price": 889,
+      "validityDays": 84,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": null,
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioSaavn": true,
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_666_70_29",
+      "name": "Jio Popular Plans Plan",
+      "price": 666,
+      "validityDays": 70,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 1.5
+      },
+      "totalData": {
+        "amount": 105.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_579_56_30",
+      "name": "Jio Popular Plans Plan",
+      "price": 579,
+      "validityDays": 56,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 1.5
+      },
+      "totalData": {
+        "amount": 84.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_329_28_31",
+      "name": "JIOSAAVN PRO INCLUDED",
+      "price": 329,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": null,
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioSaavn": true,
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_319_30_32",
+      "name": "Jio Popular Plans Plan",
+      "price": 319,
+      "validityDays": 30,
+      "isCalendarMonth": true,
+      "dailyData": {
+        "amount": 1.5
+      },
+      "totalData": null,
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_299_28_33",
+      "name": "Jio Popular Plans Plan",
+      "price": 299,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 1.5
+      },
+      "totalData": {
+        "amount": 42.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_239_22_34",
+      "name": "Jio Popular Plans Plan",
+      "price": 239,
+      "validityDays": 22,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 1.5
+      },
+      "totalData": {
+        "amount": 33.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_1799_84_35",
+      "name": "NETFLIX INCLUDED",
+      "price": 1799,
+      "validityDays": 84,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 3.0
+      },
+      "totalData": {
+        "amount": 252.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "netflix": "Basic",
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_1199_84_36",
+      "name": "5G + AI + MOVIES + HOLLYWOOD",
+      "price": 1199,
+      "validityDays": 84,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 3.0
+      },
+      "totalData": {
+        "amount": 252.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_449_28_37",
+      "name": "5G + AI + MOVIES + HOLLYWOOD",
+      "price": 449,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 3.0
+      },
+      "totalData": {
+        "amount": 84.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_355_30_38",
+      "name": "Jio Popular Plans Plan",
+      "price": 355,
+      "validityDays": 30,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 25.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_545_28_39",
+      "name": "Jio Youth & Gaming Plan",
+      "price": 545,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 61.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "jioCloud": true,
+        "fancode": true,
+        "jioTV": true
+      },
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": true
+      },
+      "category": "Youth & Gaming",
+      "description": "Jio Youth & Gaming",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_495_28_40",
+      "name": "Jio Youth & Gaming Plan",
+      "price": 495,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 1.5
+      },
+      "totalData": {
+        "amount": 47.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioCloud": true,
+        "fancode": true,
+        "jioTV": true
+      },
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": true
+      },
+      "category": "Youth & Gaming",
+      "description": "Jio Youth & Gaming",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_48_3_41",
+      "name": "GAMING ADD-ON",
+      "price": 48,
+      "validityDays": 3,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": null,
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Youth & Gaming",
+      "description": "Jio Youth & Gaming",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_298_28_42",
+      "name": "GAMING ADD-ON",
+      "price": 298,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 3.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Youth & Gaming",
+      "description": "Jio Youth & Gaming",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_98_7_43",
+      "name": "GAMING ADD-ON",
+      "price": 98,
+      "validityDays": 7,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": null,
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Youth & Gaming",
+      "description": "Jio Youth & Gaming",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_175_28_44",
+      "name": "DATA ONLY PACK + 10 OTT",
+      "price": 175,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 10.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "zee5": true,
+        "lionsgate": true,
+        "discoveryPlus": true,
+        "sunNxt": true,
+        "hoichoi": true,
+        "jioTV": true
+      },
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Entertainment Plans",
+      "description": "Jio Entertainment Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_195_30_45",
+      "name": "JIOHOTSTAR DATA PACK",
+      "price": 195,
+      "validityDays": 30,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 15.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "hotstar": true
+      },
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Entertainment Plans",
+      "description": "Jio Entertainment Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_100_30_46",
+      "name": "JIOHOTSTAR DATA PACK",
+      "price": 100,
+      "validityDays": 30,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 6.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "hotstar": true
+      },
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Entertainment Plans",
+      "description": "Jio Entertainment Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_79_30_47",
+      "name": "JIOHOTSTAR DATA PACK",
+      "price": 79,
+      "validityDays": 30,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 3.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "hotstar": true
+      },
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Entertainment Plans",
+      "description": "Jio Entertainment Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_103_28_48",
+      "name": "FLEXI OTT PACK",
+      "price": 103,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 5.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Data Packs",
+      "description": "Jio Data Packs",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_39_3_49",
+      "name": "DATA ONLY PACK",
+      "price": 39,
+      "validityDays": 3,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 3.0
+      },
+      "totalData": {
+        "amount": 9.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Data Packs",
+      "description": "Jio Data Packs",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_49_1_50",
+      "name": "UNLIMITED DATA PACK",
+      "price": 49,
+      "validityDays": 1,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 25.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Data Packs",
+      "description": "Jio Data Packs",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_69_7_51",
+      "name": "DATA ONLY PACK",
+      "price": 69,
+      "validityDays": 7,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 6.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Data Packs",
+      "description": "Jio Data Packs",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_139_7_52",
+      "name": "DATA ONLY PACK",
+      "price": 139,
+      "validityDays": 7,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 12.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Data Packs",
+      "description": "Jio Data Packs",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_29_2_53",
+      "name": "DATA ONLY PACK",
+      "price": 29,
+      "validityDays": 2,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 2.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Data Packs",
+      "description": "Jio Data Packs",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_19_1_54",
+      "name": "DATA ONLY PACK",
+      "price": 19,
+      "validityDays": 1,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 1.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Data Packs",
+      "description": "Jio Data Packs",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_11_0_55",
+      "name": "DATA ONLY PACK",
+      "price": 11,
+      "validityDays": 0,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 10.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Data Packs",
+      "description": "Jio Data Packs",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_219_30_56",
+      "name": "DATA ONLY PACK",
+      "price": 219,
+      "validityDays": 30,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 30.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Data Packs",
+      "description": "Jio Data Packs",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_289_30_57",
+      "name": "DATA ONLY PACK",
+      "price": 289,
+      "validityDays": 30,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 40.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Data Packs",
+      "description": "Jio Data Packs",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_359_30_58",
+      "name": "DATA ONLY PACK",
+      "price": 359,
+      "validityDays": 30,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 50.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Data Packs",
+      "description": "Jio Data Packs",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_182_28_59",
+      "name": "Jio 4G Feature Phone Addon Plan",
+      "price": 182,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 56.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": 0
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": true,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "4G Feature Phone Addon",
+      "description": "Jio 4G Feature Phone Addon",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_122_28_60",
+      "name": "Jio 4G Feature Phone Addon Plan",
+      "price": 122,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 1.0
+      },
+      "totalData": {
+        "amount": 28.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": 0
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": true,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "4G Feature Phone Addon",
+      "description": "Jio 4G Feature Phone Addon",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_86_28_61",
+      "name": "Jio 4G Feature Phone Addon Plan",
+      "price": 86,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 0.5
+      },
+      "totalData": {
+        "amount": 14.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": 0
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": true,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "4G Feature Phone Addon",
+      "description": "Jio 4G Feature Phone Addon",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_62_28_62",
+      "name": "Jio 4G Feature Phone Addon Plan",
+      "price": 62,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 6.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": 0
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": true,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "4G Feature Phone Addon",
+      "description": "Jio 4G Feature Phone Addon",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_26_28_63",
+      "name": "Jio 4G Feature Phone Addon Plan",
+      "price": 26,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 2.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": 0
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": true,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "4G Feature Phone Addon",
+      "description": "Jio 4G Feature Phone Addon",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_1234_336_64",
+      "name": "Jio 4G Feature Phone Plan Plan",
+      "price": 1234,
+      "validityDays": 336,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 0.5
+      },
+      "totalData": {
+        "amount": 168.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 300,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioSaavn": true,
+        "jioTV": true
+      },
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": false,
+        "isJioPhone": true,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "4G Feature Phone Plan",
+      "description": "Jio 4G Feature Phone Plan",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_369_84_65",
+      "name": "Jio 4G Feature Phone Plan Plan",
+      "price": 369,
+      "validityDays": 84,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 0.5
+      },
+      "totalData": {
+        "amount": 42.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 300,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioSaavn": true,
+        "jioTV": true
+      },
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": false,
+        "isJioPhone": true,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "4G Feature Phone Plan",
+      "description": "Jio 4G Feature Phone Plan",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_234_56_66",
+      "name": "Jio 4G Feature Phone Plan Plan",
+      "price": 234,
+      "validityDays": 56,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 0.5
+      },
+      "totalData": {
+        "amount": 28.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 300,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioSaavn": true,
+        "jioTV": true
+      },
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": false,
+        "isJioPhone": true,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "4G Feature Phone Plan",
+      "description": "Jio 4G Feature Phone Plan",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_123_28_67",
+      "name": "Jio 4G Feature Phone Plan Plan",
+      "price": 123,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 0.5
+      },
+      "totalData": {
+        "amount": 14.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 300,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioSaavn": true,
+        "jioTV": true
+      },
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": false,
+        "isJioPhone": true,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "4G Feature Phone Plan",
+      "description": "Jio 4G Feature Phone Plan",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_1748_336_68",
+      "name": "VOICE ONLY PLAN",
+      "price": 1748,
+      "validityDays": 336,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": null,
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 3600,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Value",
+      "description": "Jio Value",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_448_84_69",
+      "name": "VOICE ONLY PLAN",
+      "price": 448,
+      "validityDays": 84,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": null,
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 1000,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Value",
+      "description": "Jio Value",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_799_84_70",
+      "name": "Jio Value Plan",
+      "price": 799,
+      "validityDays": 84,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 1.5
+      },
+      "totalData": {
+        "amount": 126.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Value",
+      "description": "Jio Value",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_189_28_71",
+      "name": "Jio Value Plan",
+      "price": 189,
+      "validityDays": 28,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 2.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 300,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Value",
+      "description": "Jio Value",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_339_30_72",
+      "name": "Jio Value Plan",
+      "price": 339,
+      "validityDays": 30,
+      "isCalendarMonth": true,
+      "dailyData": {
+        "amount": 1.5
+      },
+      "totalData": null,
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Value",
+      "description": "Jio Value",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_365_30_73",
+      "name": "Jio Value Plan",
+      "price": 365,
+      "validityDays": 30,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": null,
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Value",
+      "description": "Jio Value",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_199_18_74",
+      "name": "Jio Value Plan",
+      "price": 199,
+      "validityDays": 18,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 1.5
+      },
+      "totalData": {
+        "amount": 27.0
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false
+      },
+      "category": "Value",
+      "description": "Jio Value",
+      "benefits": [],
+      "terms": ""
+    }
+  ]
+}
