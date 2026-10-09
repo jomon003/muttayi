@@ -75,8 +75,8 @@ export const OTT_SERVICES: OTTService[] = [
     icon: 'sun_nxt.png'
   },
   {
-    id: 'kanchha_lannka',
-    name: 'Kanchha Lannka',
+    id: 'kanccha_lannka',
+    name: 'Kanccha Lannka',
     operators: ['jio'],
     icon: 'kanchha_lannka.png'
   },
@@ -103,6 +103,26 @@ export const OTT_SERVICES: OTTService[] = [
     name: 'FanCode',
     operators: ['jio'],
     icon: 'fancode.png'
+  },
+  {
+    id: 'youtube_premium',
+    name: 'YouTube Premium',
+    operators: ['jio'],
+  },
+  {
+    id: 'etv_win',
+    name: 'ETV Win',
+    operators: ['jio'],
+  },
+  {
+    id: 'times_play',
+    name: 'Times Play',
+    operators: ['jio'],
+  },
+  {
+    id: 'tarang_plus',
+    name: 'Tarang Plus',
+    operators: ['jio'],
   },
   // VI OTT services are loaded dynamically from the plans database
 ];

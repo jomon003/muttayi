@@ -18,7 +18,7 @@ export const OPERATORS: OperatorInfo[] = [
     color: '#E53E3E',
     logo: '/logo/Airtel.png',
     primaryFeatures: ['Wide Coverage', 'Good 4G/5G', 'OTT Benefits'],
-    needsCircleSelection: false,
+    needsCircleSelection: true,
   },
   {
     id: 'jio',

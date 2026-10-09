@@ -518,10 +518,10 @@ export const PlanFilters: React.FC<PlanFiltersProps> = ({
                 label={
                   <Box>
                     <Typography variant="body2" sx={{ fontWeight: 500 }}>
-                      Include Data-Only Packs
+                      Include Data Packs & Add-ons
                     </Typography>
                     <Typography variant="caption" sx={{ color: '#666666', display: 'block', mt: 0.5 }}>
-                      Show data packs that may require an active base plan
+                      Show data packs, OTT passes and memberships (no calls) that need an active base plan
                     </Typography>
                   </Box>
                 }

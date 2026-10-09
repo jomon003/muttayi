@@ -71,7 +71,7 @@ interface JioPlan {
     netflix: string | boolean | null;          // Netflix subscription tier
     amazonPrime: string | boolean | null;      // Amazon Prime tier
     hotstar: boolean;                          // Disney+ Hotstar
-    sonyliv: boolean;                          // Sony LIV
+    sonyLIV: boolean;                          // Sony LIV (key is sonyLIV in the DB)
     zee5: boolean;                             // Zee5
     jioTV: boolean;                            // JioTV
     jioCinema: boolean;                        // JioCinema
@@ -81,13 +81,24 @@ interface JioPlan {
     sunNxt: boolean;                           // Sun NXT
     lionsgate: boolean;                        // Lionsgate Play
     hoichoi: boolean;                          // Hoichoi Bengali
-  };
+    jioCloud: boolean;                         // JioAICloud (not "JioGames Cloud")
+    // Added 2026-10 (OTT passes):
+    youtubePremium?: boolean;                  // YouTube Premium
+    etvWin?: boolean;                          // ETV Win
+    chaupal?: boolean;                         // Chaupal
+    kancchaLannka?: boolean;                   // Kanccha Lannka
+    timesPlay?: boolean;                       // Times Play
+    tarangPlus?: boolean;                      // Tarang Plus
+  };                                           // Only present keys are written; absent = not included
   planType: {
     isJioPhone: boolean;                       // For JioPhone devices
     isDataPack: boolean;                       // Data-only add-on pack
     isJioPhoneDataAddon: boolean;              // JioPhone data add-on
     isJioBharatPhone: boolean;                 // For JioBharat phones
     isGaming: boolean;                         // Gaming subscription plan
+    isRecharge: boolean;                       // Regular recharge plan
+    isJioPhonePrima: boolean;                  // For JioPhone Prima devices
+    isAddOn: boolean;                          // No calls + no data: membership/service add-on (2026-10)
   };
   additionalBenefits: string[];                // Array of benefit descriptions
   postFUPSpeed: string | null;                 // Speed after Fair Usage Policy
@@ -249,7 +260,7 @@ Object containing OTT platform subscriptions:
 - **Details:** Usually "JioHotstar Mobile/TV subscription for 90 Days"
 - **Note:** Most popular OTT benefit in Jio plans
 
-#### `sonyliv`
+#### `sonyLIV`
 - **Type:** `boolean`
 - **Description:** Sony LIV subscription
 - **Values:**
@@ -338,11 +349,18 @@ Object containing plan type flags:
 
 #### `planType.isDataPack`
 - **Type:** `boolean`
-- **Description:** Data-only add-on pack
+- **Description:** Data-only add-on pack (no calls)
 - **Values:**
   - `true` - Add-on data booster
   - `false` - Full recharge plan
 - **Note:** Data packs don't provide validity
+- **2026-10:** any non-feature-phone plan with **no calls but some data** is marked `isDataPack`, even if it sits in another tab — e.g. OTT passes ₹550/₹2000, gaming packs ₹48/₹98/₹298, ₹111 Flexi pack. Hidden in the app unless "Include Data Packs & Add-ons" is on.
+
+#### `planType.isAddOn`
+- **Type:** `boolean` (added 2026-10)
+- **Description:** Membership or service add-on with **no calls and no data** — e.g. ₹300 JIO PRIME, ₹1000 JIOSHIELD + Canva Pro
+- **App behaviour:** normalized category `"Add-on"`; hidden by default together with data packs; card shows an "Add-on / membership" notice
+- **Note:** validity may be a date on the site ("5th September 2027") — it is stored as days remaining at the time the data was collected
 
 #### `planType.isJioPhoneDataAddon`
 - **Type:** `boolean`

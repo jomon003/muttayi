@@ -19,7 +19,7 @@ This document provides a comprehensive comparison of JSON schemas across all fou
 | **Lines of Code** | 1,973 | 3,177 | 5,996 | 15,835 |
 | **Schema Complexity** | ⭐ Simple | ⭐⭐⭐ Complex | ⭐⭐⭐⭐ Very Complex | ⭐⭐⭐⭐⭐ Most Complex |
 | **Root Structure** | Flat array | Wrapped object | Flat array | Flat array |
-| **Circle Filtering** | ❌ No | ❌ No | ✅ Yes (34 circles) | ✅ Yes (23 circles) |
+| **Circle Filtering** | ✅ Yes (22 circles, since 2026-10) | ❌ No | ✅ Yes (38 circles) | ✅ Yes (23 circles) |
 | **5G Support** | ✅ Yes | ✅ Yes (unlimited5G) | ❌ No | ⚠️ Limited |
 | **OTT Bundles** | ✅ Yes (array) | ✅ Yes (object) | ❌ No | ✅ Yes (object) |
 | **Freebies Validity** | ❌ No | ❌ No | ✅ Yes (critical) | ✅ Yes (usually same) |
@@ -302,23 +302,25 @@ This document provides a comprehensive comparison of JSON schemas across all fou
 ## Circle Availability
 
 ### Operators WITHOUT Circle Filtering
-- **Airtel:** Pan-India plans (no circle field)
 - **Jio:** Pan-India plans (no circle field)
+
+### Airtel: 22 Circles (since 2026-10)
+Top-level `available_circles: string[]` on every plan (same pattern as BSNL/Vi, but Airtel plans are flat — no `plan_details` wrapper). Codes: AP, AS, BH, DL, GJ, HR, HP, JK, KA, KL, KO, MH, MP, MU, NE, OD, PB, RJ, TN, UE, UW, WB (`src/constants/circles.ts` `AIRTEL_CIRCLES`). A plan that differs by circle (e.g. ₹449 is 4 GB/day in Delhi but no-cap in Kerala) appears as separate records with disjoint circle lists.
 
 ### Operators WITH Circle Filtering
 
-#### BSNL: 34 Circles
+#### BSNL: 38 Circles
 ```
-AP, AR, AS, BR, CG, CH, CN, DD, DN, GA, GJ, HP, HR, JH,
-KA, KL, KO, LD, MH, ML, MN, MP, MZ, NL, OR, PB, PY, RJ,
-SK, TN, TR, TS, UA, UE, UW, WB
+AN, AP, AR, AS, BR, CH, CN, CT, DD, DN, GA, GJ, HP, HR,
+JH, JK, KA, KL, KO, LD, MH, ML, MN, MP, MZ, NL, OR, PB,
+PY, RJ, SK, TN, TR, TS, UE, UK, UW, WB
 ```
 **Coverage:** Most comprehensive (includes smaller UTs like Lakshadweep)
 
 #### Vi: 23 Circles
 ```
-AP, AS, CN, GJ, HP, HR, JK, KA, KL, KO, MP, MH, NE, OR,
-PB, RJ, TN, UE, UW, WB, (varies by plan)
+AP, AS, BH, CN, DL, GJ, HP, HR, JK, KA, KL, KO, MH, MP,
+MU, NE, OD, PB, RJ, TN, UE, UW, WB (varies by plan)
 ```
 **Coverage:** Major circles only (merged Vodafone + Idea footprint)
 
@@ -446,8 +448,8 @@ const isEnabled = value === true || typeof value === 'string';
 **Solution:** Always check `freebiesValidity` for BSNL/Vi, display warnings
 
 ### Pitfall 4: Circle Filtering
-**Problem:** Showing BSNL/Vi plans without circle selection
-**Solution:** Mandatory circle picker for BSNL/Vi
+**Problem:** Showing Airtel/BSNL/Vi plans without circle selection
+**Solution:** Mandatory circle picker for Airtel/BSNL/Vi
 
 ### Pitfall 5: GP2/JK20 Plans Leaking
 **Problem:** Showing exclusive plans to ineligible users

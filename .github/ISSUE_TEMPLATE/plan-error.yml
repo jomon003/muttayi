@@ -23,7 +23,7 @@ body:
     id: circle
     attributes:
       label: Circle / State
-      description: Required for BSNL and Vi (plans differ by circle).
+      description: Required for Airtel, BSNL and Vi (plans differ by circle).
       placeholder: e.g. KL (Kerala)
   - type: dropdown
     id: issue_type

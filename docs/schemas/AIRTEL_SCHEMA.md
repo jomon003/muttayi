@@ -3,10 +3,11 @@
 ## Overview
 Airtel (Bharti Airtel Limited) is one of India's largest telecommunications operators. The Airtel database contains mobile recharge plans with a focus on data-centric offerings, unlimited calling, and entertainment subscriptions.
 
-**Database File:** `db/airtel_db.json`
-**Total Plans:** ~68 plans (as per current database)
+**Database File:** `public/db/airtel_db.json` (served at `/db/airtel_db.json`)
+**Total Plans:** see [Database Statistics](#database-statistics)
 **Unique Characteristics:**
-- Simplest schema among all operators
+- Simplest schema among all operators (flat, no `plan_details` wrapper)
+- **Circle-based since 2026-10** — every plan has `available_circles` (22 Airtel circles)
 - Strong focus on entertainment bundles (Netflix, Amazon Prime, Hotstar)
 - 5G-ready plans available
 - Mix of data packs and full recharge plans
@@ -28,7 +29,9 @@ The Airtel database is a **flat array** of plan objects:
     "voice": { ... },
     "sms": { ... },
     "isAddOn": true,
-    "ott": { ... }
+    "ott": { ... },
+    "fiveG": false,
+    "available_circles": ["AP", "AS", ...]
   },
   ...
 ]
@@ -67,6 +70,8 @@ interface AirtelPlan {
     isIncluded: boolean;             // Whether OTT services are included
     services: string[];              // List of OTT service names
   };
+  fiveG: boolean;                    // Card/modal mentions 5G
+  available_circles: string[];       // Airtel circle codes where this exact plan is offered (2026-10)
 }
 ```
 
@@ -76,9 +81,17 @@ interface AirtelPlan {
 
 ### `planId`
 - **Type:** `string`
-- **Description:** Sequential numeric identifier
-- **Examples:** `"1"`, `"2"`, `"18"`, `"53"`
-- **Usage:** Used for internal tracking and as a unique key
+- **Description:** `airtel_<price>_<validityDays>`, with `_2`, `_3`… appended when the same price/validity has circle-specific variants (2026-10; previously a sequential number)
+- **Examples:** `"airtel_449_28"`, `"airtel_449_28_2"`, `"airtel_22_1"`
+- **Usage:** Unique key (React key, report links)
+
+### `available_circles`
+- **Type:** `string[]` (added 2026-10)
+- **Description:** Circle codes where this exact plan (same price, validity, data, voice, SMS, OTT, category) is offered
+- **Codes (22):** `AP` AP & Telangana · `AS` Assam · `BH` Bihar & Jharkhand · `DL` Delhi NCR · `GJ` Gujarat · `HR` Haryana · `HP` Himachal Pradesh · `JK` J&K · `KA` Karnataka · `KL` Kerala · `KO` Kolkata · `MH` Maharashtra & Goa · `MP` MP & Chhattisgarh · `MU` Mumbai · `NE` North East · `OD` Odisha · `PB` Punjab · `RJ` Rajasthan · `TN` Tamil Nadu · `UE` UP East · `UW` UP West & Uttarakhand · `WB` West Bengal
+- **Variants:** when a plan's benefits differ by circle, each variant is a separate record with its own circle list. Example: ₹449 / 28 d is `4 GB/day` in most circles but **no daily cap** ("Unlimited 4G + 5G data") in Kerala and Mumbai.
+- **App:** the Airtel page requires a circle; `PlanFilter` keeps plans whose `circles` include it
+- **Must match** `AIRTEL_CIRCLES` in `src/constants/circles.ts`
 
 ### `price`
 - **Type:** `number`
@@ -499,7 +512,7 @@ static normalizeAirtelPlan(plan: AirtelPlan, index: number): NormalizedPlan {
 
 ### Simplicity
 - Airtel has the **simplest schema** - flat structure, minimal nesting
-- No circle-based filtering (plans available across India)
+- Circle-based since 2026-10 (`available_circles`, 22 circles) — most plans are in all circles, a few are circle-specific
 - No special conditions like GP2/JK20 (unlike BSNL)
 
 ### Data-Centric
@@ -581,21 +594,20 @@ static normalizeAirtelPlan(plan: AirtelPlan, index: number): NormalizedPlan {
 
 ## Database Statistics
 
-- **Total Plans:** 68
-- **Price Range:** ₹11 - ₹3999
-- **Validity Range:** 1 hour (0.04 days) to 365 days
-- **Add-On Packs:** 17 (25%)
-- **Full Recharge Plans:** 51 (75%)
-- **Plans with OTT:** 24 (35%)
-- **5G Plans:** Available in select plans
-- **Unlimited Calling Plans:** 51 (75%)
+As of the 2026-10-09 refresh (22 circles scraped):
+
+- **Total records:** 69 (each circle has 37–38 plans; a record = one plan in one or more circles)
+- **In all 22 circles:** 11 records
+- **Circle-specific variants:** ₹399 / ₹449 / ₹1099 / ₹3999 have no daily cap in 13 circles (BH, GJ, HR, KL, KO, MH, MP, MU, OD, PB, UE, UW, WB) and a daily cap in the other 9 (AP, AS, DL, HP, JK, KA, NE, RJ, TN); ₹348 exists only in those 13 circles; ₹161 is 15 GB / 15 d in TN (12 GB / 30 d elsewhere); ₹219 is 2 GB / 1 month in KA (3 GB / 28 d elsewhere); J&K cards list calls as "local & STD" (no roaming), so most J&K plans are separate records
+- **Categories:** Truly Unlimited 56, Data 13
+- **Price Range:** ₹22 – ₹3999
 
 ---
 
 ## Notes for Developers
 
 1. **Pricing Transparency:** All prices are in INR, whole numbers only
-2. **No Circle Filtering:** Airtel plans are pan-India (unlike BSNL/Vi)
+2. **Circle Filtering (2026-10):** filter by `available_circles`; same price can appear more than once with different benefits per circle
 3. **OTT Naming:** Service names may vary (e.g., "JioHotstar" vs "Hotstar")
 4. **Add-On Detection:** Use `isAddOn` field to separate add-ons from plans
 5. **Data Display:** Check `isPerDay` to determine how to show data (per day vs total)
@@ -606,6 +618,5 @@ static normalizeAirtelPlan(plan: AirtelPlan, index: number): NormalizedPlan {
 
 ## Changelog & Version Info
 
-- **Last Updated:** Based on current database snapshot
-- **Schema Version:** 1.0 (Stable)
-- **Breaking Changes:** None expected - schema is mature
+- **2026-10-09 — v2.0:** added `available_circles` (Airtel now scraped per circle); `planId` changed from a sequence number to `airtel_<price>_<days>[_n]`; `fiveG` documented
+- **v1.0:** pan-India flat array

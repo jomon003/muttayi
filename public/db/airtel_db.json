@@ -1,161 +1,172 @@
 [
   {
-    "planId": "1",
-    "price": 3599,
-    "category": "Truly Unlimited",
+    "planId": "airtel_22_1",
+    "price": 22,
+    "category": "Data",
     "validity": {
-      "days": 365,
+      "days": 1,
       "unit": "Calendar Day(s)"
     },
     "data": {
-      "isUnlimited": true,
-      "isPerDay": true,
-      "perDayData": 2.0,
-      "totalData": null,
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 1.0,
       "unit": "GB"
     },
     "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
-    },
-    "sms": {
-      "perDay": 100,
-      "total": 36500
-    },
-    "isAddOn": false,
-    "ott": {
-      "isIncluded": true,
-      "services": [
-        "Sony LIV",
-        "Airtel Xstream Play",
-        "Hellotunes"
-      ]
-    },
-    "fiveG": true
-  },
-  {
-    "planId": "2",
-    "price": 3999,
-    "category": "Truly Unlimited",
-    "validity": {
-      "days": 365,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": true,
-      "isPerDay": true,
-      "perDayData": 2.5,
-      "totalData": null,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
-    },
-    "sms": {
-      "perDay": 100,
-      "total": 36500
-    },
-    "isAddOn": false,
-    "ott": {
-      "isIncluded": true,
-      "services": [
-        "Hellotunes"
-      ]
-    },
-    "fiveG": true
-  },
-  {
-    "planId": "3",
-    "price": 1199,
-    "category": "Truly Unlimited",
-    "validity": {
-      "days": 84,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": true,
-      "isPerDay": true,
-      "perDayData": 2.5,
-      "totalData": null,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
+      "isUnlimited": false,
+      "coverage": []
     },
     "sms": {
       "perDay": null,
-      "total": 100
+      "total": null
     },
-    "isAddOn": false,
+    "isAddOn": true,
     "ott": {
-      "isIncluded": true,
-      "services": [
-        "Amazon Prime",
-        "Sony LIV",
-        "Airtel Xstream Play",
-        "Hellotunes"
-      ]
+      "isIncluded": false,
+      "services": []
     },
-    "fiveG": true
+    "fiveG": false,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
   },
   {
-    "planId": "4",
-    "price": 979,
-    "category": "Truly Unlimited",
+    "planId": "airtel_26_1",
+    "price": 26,
+    "category": "Data",
     "validity": {
-      "days": 84,
+      "days": 1,
       "unit": "Calendar Day(s)"
     },
     "data": {
-      "isUnlimited": true,
-      "isPerDay": true,
-      "perDayData": 2.0,
-      "totalData": null,
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 1.5,
       "unit": "GB"
     },
     "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
+      "isUnlimited": false,
+      "coverage": []
     },
     "sms": {
       "perDay": null,
-      "total": 100
+      "total": null
     },
-    "isAddOn": false,
+    "isAddOn": true,
     "ott": {
-      "isIncluded": true,
-      "services": [
-        "Sony LIV",
-        "Airtel Xstream Play",
-        "Hellotunes"
-      ]
+      "isIncluded": false,
+      "services": []
     },
-    "fiveG": true
+    "fiveG": true,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
   },
   {
-    "planId": "5",
-    "price": 838,
-    "category": "Truly Unlimited",
+    "planId": "airtel_33_1",
+    "price": 33,
+    "category": "Data",
     "validity": {
-      "days": 56,
+      "days": 1,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 2.0,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": false,
+      "coverage": []
+    },
+    "sms": {
+      "perDay": null,
+      "total": null
+    },
+    "isAddOn": true,
+    "ott": {
+      "isIncluded": false,
+      "services": []
+    },
+    "fiveG": false,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_39_3",
+    "price": 39,
+    "category": "Data",
+    "validity": {
+      "days": 3,
       "unit": "Calendar Day(s)"
     },
     "data": {
@@ -166,294 +177,210 @@
       "unit": "GB"
     },
     "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
+      "isUnlimited": false,
+      "coverage": []
     },
     "sms": {
       "perDay": null,
-      "total": 100
+      "total": null
     },
-    "isAddOn": false,
+    "isAddOn": true,
     "ott": {
-      "isIncluded": true,
-      "services": [
-        "Amazon Prime",
-        "Sony LIV",
-        "Airtel Xstream Play",
-        "Hellotunes"
-      ]
+      "isIncluded": false,
+      "services": []
     },
-    "fiveG": true
+    "fiveG": false,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
   },
   {
-    "planId": "6",
-    "price": 649,
-    "category": "Truly Unlimited",
+    "planId": "airtel_49_1",
+    "price": 49,
+    "category": "Data",
     "validity": {
-      "days": 56,
+      "days": 1,
       "unit": "Calendar Day(s)"
     },
     "data": {
       "isUnlimited": true,
-      "isPerDay": true,
-      "perDayData": 2.0,
+      "isPerDay": false,
+      "perDayData": null,
       "totalData": null,
       "unit": "GB"
     },
     "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
+      "isUnlimited": false,
+      "coverage": []
     },
     "sms": {
       "perDay": null,
-      "total": 100
+      "total": null
     },
-    "isAddOn": false,
+    "isAddOn": true,
     "ott": {
-      "isIncluded": true,
-      "services": [
-        "Hellotunes"
-      ]
+      "isIncluded": false,
+      "services": []
     },
-    "fiveG": true
+    "fiveG": false,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
   },
   {
-    "planId": "7",
-    "price": 619,
-    "category": "Truly Unlimited",
+    "planId": "airtel_77_7",
+    "price": 77,
+    "category": "Data",
     "validity": {
-      "days": 60,
+      "days": 7,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 5.0,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": false,
+      "coverage": []
+    },
+    "sms": {
+      "perDay": null,
+      "total": null
+    },
+    "isAddOn": true,
+    "ott": {
+      "isIncluded": false,
+      "services": []
+    },
+    "fiveG": true,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_99_2",
+    "price": 99,
+    "category": "Data",
+    "validity": {
+      "days": 2,
       "unit": "Calendar Day(s)"
     },
     "data": {
       "isUnlimited": true,
-      "isPerDay": true,
-      "perDayData": 1.5,
+      "isPerDay": false,
+      "perDayData": null,
       "totalData": null,
       "unit": "GB"
     },
     "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
+      "isUnlimited": false,
+      "coverage": []
     },
     "sms": {
       "perDay": null,
-      "total": 100
+      "total": null
     },
-    "isAddOn": false,
+    "isAddOn": true,
     "ott": {
-      "isIncluded": true,
-      "services": [
-        "Sony LIV",
-        "Airtel Xstream Play",
-        "Hellotunes"
-      ]
+      "isIncluded": false,
+      "services": []
     },
-    "fiveG": true
+    "fiveG": false,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
   },
   {
-    "planId": "8",
-    "price": 579,
-    "category": "Truly Unlimited",
-    "validity": {
-      "days": 56,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": true,
-      "isPerDay": true,
-      "perDayData": 1.5,
-      "totalData": null,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
-    },
-    "sms": {
-      "perDay": null,
-      "total": 100
-    },
-    "isAddOn": false,
-    "ott": {
-      "isIncluded": true,
-      "services": [
-        "Sony LIV",
-        "Airtel Xstream Play",
-        "Hellotunes"
-      ]
-    },
-    "fiveG": true
-  },
-  {
-    "planId": "9",
-    "price": 449,
-    "category": "Truly Unlimited",
-    "validity": {
-      "days": 28,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": true,
-      "isPerDay": true,
-      "perDayData": 4.0,
-      "totalData": null,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
-    },
-    "sms": {
-      "perDay": null,
-      "total": 100
-    },
-    "isAddOn": false,
-    "ott": {
-      "isIncluded": true,
-      "services": [
-        "JioHotstar",
-        "Sony LIV",
-        "Airtel Xstream Play",
-        "Hellotunes"
-      ]
-    },
-    "fiveG": true
-  },
-  {
-    "planId": "10",
-    "price": 429,
-    "category": "Truly Unlimited",
-    "validity": {
-      "days": 28,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": true,
-      "isPerDay": true,
-      "perDayData": 2.5,
-      "totalData": null,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
-    },
-    "sms": {
-      "perDay": null,
-      "total": 100
-    },
-    "isAddOn": false,
-    "ott": {
-      "isIncluded": true,
-      "services": [
-        "Sony LIV",
-        "Airtel Xstream Play",
-        "Hellotunes"
-      ]
-    },
-    "fiveG": true
-  },
-  {
-    "planId": "11",
-    "price": 379,
-    "category": "Truly Unlimited",
-    "validity": {
-      "days": 28,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": true,
-      "isPerDay": true,
-      "perDayData": 2.0,
-      "totalData": null,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
-    },
-    "sms": {
-      "perDay": null,
-      "total": 100
-    },
-    "isAddOn": false,
-    "ott": {
-      "isIncluded": true,
-      "services": [
-        "Hellotunes"
-      ]
-    },
-    "fiveG": true
-  },
-  {
-    "planId": "12",
-    "price": 349,
-    "category": "Truly Unlimited",
-    "validity": {
-      "days": 28,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": true,
-      "isPerDay": true,
-      "perDayData": 1.5,
-      "totalData": null,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
-    },
-    "sms": {
-      "perDay": null,
-      "total": 100
-    },
-    "isAddOn": false,
-    "ott": {
-      "isIncluded": true,
-      "services": [
-        "Hellotunes"
-      ]
-    },
-    "fiveG": true
-  },
-  {
-    "planId": "13",
-    "price": 355,
-    "category": "Truly Unlimited",
+    "planId": "airtel_100_30",
+    "price": 100,
+    "category": "Data",
     "validity": {
       "days": 30,
       "unit": "Calendar Day(s)"
@@ -462,68 +389,139 @@
       "isUnlimited": false,
       "isPerDay": false,
       "perDayData": null,
-      "totalData": 25.0,
+      "totalData": 6.0,
       "unit": "GB"
     },
     "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
+      "isUnlimited": false,
+      "coverage": []
     },
     "sms": {
       "perDay": null,
-      "total": 300
+      "total": null
     },
-    "isAddOn": false,
+    "isAddOn": true,
     "ott": {
       "isIncluded": true,
       "services": [
-        "Hellotunes"
+        "Sony LIV",
+        "Airtel Xstream Play"
       ]
     },
-    "fiveG": true
+    "fiveG": false,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
   },
   {
-    "planId": "14",
-    "price": 299,
-    "category": "Truly Unlimited",
+    "planId": "airtel_161_15",
+    "price": 161,
+    "category": "Data",
     "validity": {
-      "days": 28,
+      "days": 15,
       "unit": "Calendar Day(s)"
     },
     "data": {
-      "isUnlimited": true,
-      "isPerDay": true,
-      "perDayData": 1.0,
-      "totalData": null,
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 15.0,
       "unit": "GB"
     },
     "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
+      "isUnlimited": false,
+      "coverage": []
     },
     "sms": {
-      "perDay": 100,
-      "total": 2800
+      "perDay": null,
+      "total": null
     },
-    "isAddOn": false,
+    "isAddOn": true,
     "ott": {
-      "isIncluded": true,
-      "services": [
-        "Hellotunes"
-      ]
+      "isIncluded": false,
+      "services": []
     },
-    "fiveG": false
+    "fiveG": false,
+    "available_circles": [
+      "TN"
+    ]
   },
   {
-    "planId": "15",
+    "planId": "airtel_161_30",
+    "price": 161,
+    "category": "Data",
+    "validity": {
+      "days": 30,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 12.0,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": false,
+      "coverage": []
+    },
+    "sms": {
+      "perDay": null,
+      "total": null
+    },
+    "isAddOn": true,
+    "ott": {
+      "isIncluded": false,
+      "services": []
+    },
+    "fiveG": false,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_199_28",
     "price": 199,
     "category": "Truly Unlimited",
     "validity": {
@@ -558,10 +556,133 @@
         "Hellotunes"
       ]
     },
-    "fiveG": false
+    "fiveG": false,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
   },
   {
-    "planId": "16",
+    "planId": "airtel_199_28_2",
+    "price": 199,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 28,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 2.0,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 2800
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Sony LIV",
+        "Airtel Xstream Play",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": false,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_200_28",
+    "price": 200,
+    "category": "Data",
+    "validity": {
+      "days": 28,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 30.0,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": false,
+      "coverage": []
+    },
+    "sms": {
+      "perDay": null,
+      "total": null
+    },
+    "isAddOn": true,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "JioHotstar",
+        "Amazon Prime",
+        "Zee5",
+        "Sony LIV",
+        "Airtel Xstream Play"
+      ]
+    },
+    "fiveG": false,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_219_28",
     "price": 219,
     "category": "Truly Unlimited",
     "validity": {
@@ -596,34 +717,55 @@
         "Hellotunes"
       ]
     },
-    "fiveG": false
+    "fiveG": false,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
   },
   {
-    "planId": "17",
-    "price": 2249,
+    "planId": "airtel_219_28_2",
+    "price": 219,
     "category": "Truly Unlimited",
     "validity": {
-      "days": 365,
+      "days": 28,
       "unit": "Calendar Day(s)"
     },
     "data": {
       "isUnlimited": false,
       "isPerDay": false,
       "perDayData": null,
-      "totalData": 30.0,
+      "totalData": 3.0,
       "unit": "GB"
     },
     "voice": {
       "isUnlimited": true,
       "coverage": [
         "local",
-        "STD",
-        "roaming"
+        "STD"
       ]
     },
     "sms": {
       "perDay": null,
-      "total": 3600
+      "total": 300
     },
     "isAddOn": false,
     "ott": {
@@ -634,21 +776,24 @@
         "Hellotunes"
       ]
     },
-    "fiveG": false
+    "fiveG": false,
+    "available_circles": [
+      "JK"
+    ]
   },
   {
-    "planId": "18",
-    "price": 1849,
+    "planId": "airtel_219_28_3",
+    "price": 219,
     "category": "Truly Unlimited",
     "validity": {
-      "days": 365,
+      "days": 28,
       "unit": "Calendar Day(s)"
     },
     "data": {
       "isUnlimited": false,
       "isPerDay": false,
       "perDayData": null,
-      "totalData": null,
+      "totalData": 2.0,
       "unit": "GB"
     },
     "voice": {
@@ -661,137 +806,88 @@
     },
     "sms": {
       "perDay": null,
-      "total": 3600
+      "total": 300
     },
     "isAddOn": false,
     "ott": {
       "isIncluded": true,
       "services": [
+        "Sony LIV",
+        "Airtel Xstream Play",
         "Hellotunes"
       ]
     },
-    "fiveG": false
+    "fiveG": false,
+    "available_circles": [
+      "KA"
+    ]
   },
   {
-    "planId": "19",
-    "price": 1798,
-    "category": "Truly Unlimited",
+    "planId": "airtel_279_28",
+    "price": 279,
+    "category": "Data",
     "validity": {
-      "days": 84,
+      "days": 28,
       "unit": "Calendar Day(s)"
     },
     "data": {
-      "isUnlimited": true,
-      "isPerDay": true,
-      "perDayData": 3.0,
-      "totalData": null,
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 30.0,
       "unit": "GB"
     },
     "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
+      "isUnlimited": false,
+      "coverage": []
     },
     "sms": {
       "perDay": null,
-      "total": 100
+      "total": null
     },
-    "isAddOn": false,
-    "ott": {
-      "isIncluded": true,
-      "services": [
-        "Netflix",
-        "Hellotunes"
-      ]
-    },
-    "fiveG": true
-  },
-  {
-    "planId": "20",
-    "price": 1729,
-    "category": "Truly Unlimited",
-    "validity": {
-      "days": 84,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": true,
-      "isPerDay": true,
-      "perDayData": 2.0,
-      "totalData": null,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
-    },
-    "sms": {
-      "perDay": 100,
-      "total": 8400
-    },
-    "isAddOn": false,
+    "isAddOn": true,
     "ott": {
       "isIncluded": true,
       "services": [
         "JioHotstar",
         "Netflix",
         "Zee5",
-        "Airtel Xstream Play",
-        "Hellotunes"
+        "Sony LIV",
+        "Airtel Xstream Play"
       ]
     },
-    "fiveG": true
+    "fiveG": false,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
   },
   {
-    "planId": "21",
-    "price": 1029,
+    "planId": "airtel_348_21",
+    "price": 348,
     "category": "Truly Unlimited",
     "validity": {
-      "days": 84,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": true,
-      "isPerDay": true,
-      "perDayData": 2.0,
-      "totalData": null,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
-    },
-    "sms": {
-      "perDay": null,
-      "total": 100
-    },
-    "isAddOn": false,
-    "ott": {
-      "isIncluded": true,
-      "services": [
-        "JioHotstar",
-        "Hellotunes"
-      ]
-    },
-    "fiveG": true
-  },
-  {
-    "planId": "22",
-    "price": 899,
-    "category": "Truly Unlimited",
-    "validity": {
-      "days": 84,
+      "days": 21,
       "unit": "Calendar Day(s)"
     },
     "data": {
@@ -810,8 +906,8 @@
       ]
     },
     "sms": {
-      "perDay": null,
-      "total": 100
+      "perDay": 100,
+      "total": 2100
     },
     "isAddOn": false,
     "ott": {
@@ -820,21 +916,133 @@
         "Hellotunes"
       ]
     },
-    "fiveG": true
+    "fiveG": true,
+    "available_circles": [
+      "BH",
+      "GJ",
+      "HR",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "OD",
+      "PB",
+      "UE",
+      "UW",
+      "WB"
+    ]
   },
   {
-    "planId": "23",
-    "price": 609,
+    "planId": "airtel_349_28",
+    "price": 349,
     "category": "Truly Unlimited",
     "validity": {
       "days": 28,
       "unit": "Calendar Day(s)"
     },
     "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 1.5,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 2800
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_349_28_2",
+    "price": 349,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 28,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 1.5,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 2800
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_355_30",
+    "price": 355,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 30,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
       "isUnlimited": false,
       "isPerDay": false,
       "perDayData": null,
-      "totalData": 60.0,
+      "totalData": 25.0,
       "unit": "GB"
     },
     "voice": {
@@ -856,10 +1064,995 @@
         "Hellotunes"
       ]
     },
-    "fiveG": false
+    "fiveG": true,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
   },
   {
-    "planId": "24",
+    "planId": "airtel_355_30_2",
+    "price": 355,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 30,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 25.0,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": null,
+      "total": 300
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_361_30",
+    "price": 361,
+    "category": "Data",
+    "validity": {
+      "days": 30,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 50.0,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": false,
+      "coverage": []
+    },
+    "sms": {
+      "perDay": null,
+      "total": null
+    },
+    "isAddOn": true,
+    "ott": {
+      "isIncluded": false,
+      "services": []
+    },
+    "fiveG": false,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "JK",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_379_28",
+    "price": 379,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 28,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 2.0,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 2800
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_379_28_2",
+    "price": 379,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 28,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 2.0,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 2800
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_399_28",
+    "price": 399,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 28,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 2.5,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 2800
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "AP",
+      "AS",
+      "DL",
+      "HP",
+      "KA",
+      "NE",
+      "RJ",
+      "TN"
+    ]
+  },
+  {
+    "planId": "airtel_399_28_2",
+    "price": 399,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 28,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 2800
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "BH",
+      "GJ",
+      "HR",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "OD",
+      "PB",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_399_28_3",
+    "price": 399,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 28,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 2.5,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 2800
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_429_28",
+    "price": 429,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 28,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 2.5,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 2800
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Sony LIV",
+        "Airtel Xstream Play",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_429_28_2",
+    "price": 429,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 28,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 2.5,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 2800
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Sony LIV",
+        "Airtel Xstream Play",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_449_28",
+    "price": 449,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 28,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 4.0,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 2800
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Sony LIV",
+        "Airtel Xstream Play",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "AP",
+      "AS",
+      "DL",
+      "HP",
+      "KA",
+      "NE",
+      "RJ",
+      "TN"
+    ]
+  },
+  {
+    "planId": "airtel_449_28_2",
+    "price": 449,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 28,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 2800
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Sony LIV",
+        "Airtel Xstream Play",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "BH",
+      "GJ",
+      "HR",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "OD",
+      "PB",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_449_28_3",
+    "price": 449,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 28,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 4.0,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 2800
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Sony LIV",
+        "Airtel Xstream Play",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_469_84",
+    "price": 469,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 84,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
+    },
+    "sms": {
+      "perDay": null,
+      "total": 900
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
+    },
+    "fiveG": false,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_469_84_2",
+    "price": 469,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 84,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": null,
+      "total": 900
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
+    },
+    "fiveG": false,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_489_77",
+    "price": 489,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 77,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 6.0,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
+    },
+    "sms": {
+      "perDay": null,
+      "total": 600
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Sony LIV",
+        "Airtel Xstream Play",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": false,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_489_77_2",
+    "price": 489,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 77,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 6.0,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": null,
+      "total": 600
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Sony LIV",
+        "Airtel Xstream Play",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": false,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_548_84",
+    "price": 548,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 84,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 7.0,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
+    },
+    "sms": {
+      "perDay": null,
+      "total": 900
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Sony LIV",
+        "Airtel Xstream Play",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": false,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_548_84_2",
+    "price": 548,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 84,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 7.0,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": null,
+      "total": 900
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Sony LIV",
+        "Airtel Xstream Play",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": false,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_589_30",
+    "price": 589,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 30,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 50.0,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
+    },
+    "sms": {
+      "perDay": null,
+      "total": 300
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
+    },
+    "fiveG": false,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_589_30_2",
+    "price": 589,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 30,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 50.0,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": null,
+      "total": 300
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
+    },
+    "fiveG": false,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_598_28",
     "price": 598,
     "category": "Truly Unlimited",
     "validity": {
@@ -896,21 +2089,86 @@
         "Hellotunes"
       ]
     },
-    "fiveG": true
+    "fiveG": true,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
   },
   {
-    "planId": "25",
-    "price": 589,
+    "planId": "airtel_598_28_2",
+    "price": 598,
     "category": "Truly Unlimited",
     "validity": {
-      "days": 30,
+      "days": 28,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 2.0,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 2800
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "JioHotstar",
+        "Netflix",
+        "Zee5",
+        "Airtel Xstream Play",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_609_28",
+    "price": 609,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 28,
       "unit": "Calendar Day(s)"
     },
     "data": {
       "isUnlimited": false,
       "isPerDay": false,
       "perDayData": null,
-      "totalData": 50.0,
+      "totalData": 60.0,
       "unit": "GB"
     },
     "voice": {
@@ -932,132 +2190,81 @@
         "Hellotunes"
       ]
     },
-    "fiveG": false
+    "fiveG": false,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
   },
   {
-    "planId": "26",
-    "price": 548,
-    "category": "Truly Unlimited",
-    "validity": {
-      "days": 84,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": false,
-      "isPerDay": false,
-      "perDayData": null,
-      "totalData": 7.0,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
-    },
-    "sms": {
-      "perDay": null,
-      "total": 900
-    },
-    "isAddOn": false,
-    "ott": {
-      "isIncluded": true,
-      "services": [
-        "Sony LIV",
-        "Airtel Xstream Play",
-        "Hellotunes"
-      ]
-    },
-    "fiveG": false
-  },
-  {
-    "planId": "27",
-    "price": 489,
-    "category": "Truly Unlimited",
-    "validity": {
-      "days": 77,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": false,
-      "isPerDay": false,
-      "perDayData": null,
-      "totalData": 6.0,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
-    },
-    "sms": {
-      "perDay": null,
-      "total": 600
-    },
-    "isAddOn": false,
-    "ott": {
-      "isIncluded": true,
-      "services": [
-        "Sony LIV",
-        "Airtel Xstream Play",
-        "Hellotunes"
-      ]
-    },
-    "fiveG": false
-  },
-  {
-    "planId": "28",
-    "price": 469,
-    "category": "Truly Unlimited",
-    "validity": {
-      "days": 84,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": false,
-      "isPerDay": false,
-      "perDayData": null,
-      "totalData": null,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": true,
-      "coverage": [
-        "local",
-        "STD",
-        "roaming"
-      ]
-    },
-    "sms": {
-      "perDay": null,
-      "total": 900
-    },
-    "isAddOn": false,
-    "ott": {
-      "isIncluded": true,
-      "services": [
-        "Hellotunes"
-      ]
-    },
-    "fiveG": false
-  },
-  {
-    "planId": "29",
-    "price": 409,
+    "planId": "airtel_609_28_2",
+    "price": 609,
     "category": "Truly Unlimited",
     "validity": {
       "days": 28,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 60.0,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": null,
+      "total": 300
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
+    },
+    "fiveG": false,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_838_56",
+    "price": 838,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 56,
       "unit": "Calendar Day(s)"
     },
     "data": {
       "isUnlimited": true,
       "isPerDay": true,
-      "perDayData": 2.5,
+      "perDayData": 3.0,
       "totalData": null,
       "unit": "GB"
     },
@@ -1070,32 +2277,56 @@
       ]
     },
     "sms": {
-      "perDay": null,
-      "total": 100
+      "perDay": 100,
+      "total": 5600
     },
     "isAddOn": false,
     "ott": {
       "isIncluded": true,
       "services": [
+        "Amazon Prime",
         "Sony LIV",
         "Airtel Xstream Play",
         "Hellotunes"
       ]
     },
-    "fiveG": true
+    "fiveG": true,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
   },
   {
-    "planId": "30",
-    "price": 399,
+    "planId": "airtel_838_56_2",
+    "price": 838,
     "category": "Truly Unlimited",
     "validity": {
-      "days": 28,
+      "days": 56,
       "unit": "Calendar Day(s)"
     },
     "data": {
       "isUnlimited": true,
       "isPerDay": true,
-      "perDayData": 2.5,
+      "perDayData": 3.0,
       "totalData": null,
       "unit": "GB"
     },
@@ -1103,30 +2334,34 @@
       "isUnlimited": true,
       "coverage": [
         "local",
-        "STD",
-        "roaming"
+        "STD"
       ]
     },
     "sms": {
-      "perDay": null,
-      "total": 100
+      "perDay": 100,
+      "total": 5600
     },
     "isAddOn": false,
     "ott": {
       "isIncluded": true,
       "services": [
-        "JioHotstar",
+        "Amazon Prime",
+        "Sony LIV",
+        "Airtel Xstream Play",
         "Hellotunes"
       ]
     },
-    "fiveG": true
+    "fiveG": true,
+    "available_circles": [
+      "JK"
+    ]
   },
   {
-    "planId": "31",
-    "price": 319,
+    "planId": "airtel_899_84",
+    "price": 899,
     "category": "Truly Unlimited",
     "validity": {
-      "days": 28,
+      "days": 84,
       "unit": "Calendar Day(s)"
     },
     "data": {
@@ -1145,96 +2380,182 @@
       ]
     },
     "sms": {
-      "perDay": null,
-      "total": 100
+      "perDay": 100,
+      "total": 8400
     },
     "isAddOn": false,
     "ott": {
       "isIncluded": true,
       "services": [
-        "Sony LIV",
-        "Airtel Xstream Play",
         "Hellotunes"
       ]
     },
-    "fiveG": false
+    "fiveG": true,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
   },
   {
-    "planId": "32",
-    "price": 200,
-    "category": "Data",
+    "planId": "airtel_899_84_2",
+    "price": 899,
+    "category": "Truly Unlimited",
     "validity": {
-      "days": 28,
+      "days": 84,
       "unit": "Calendar Day(s)"
     },
     "data": {
-      "isUnlimited": false,
-      "isPerDay": false,
-      "perDayData": null,
-      "totalData": 30.0,
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 1.5,
+      "totalData": null,
       "unit": "GB"
     },
     "voice": {
-      "isUnlimited": false,
-      "coverage": []
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
     },
     "sms": {
-      "perDay": null,
-      "total": null
+      "perDay": 100,
+      "total": 8400
     },
-    "isAddOn": true,
+    "isAddOn": false,
     "ott": {
       "isIncluded": true,
       "services": [
-        "JioHotstar",
-        "Sony LIV",
-        "Airtel Xstream Play"
+        "Hellotunes"
       ]
     },
-    "fiveG": false
+    "fiveG": true,
+    "available_circles": [
+      "JK"
+    ]
   },
   {
-    "planId": "33",
-    "price": 279,
-    "category": "Data",
+    "planId": "airtel_979_84",
+    "price": 979,
+    "category": "Truly Unlimited",
     "validity": {
-      "days": 28,
+      "days": 84,
       "unit": "Calendar Day(s)"
     },
     "data": {
-      "isUnlimited": false,
-      "isPerDay": false,
-      "perDayData": null,
-      "totalData": 30.0,
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 2.0,
+      "totalData": null,
       "unit": "GB"
     },
     "voice": {
-      "isUnlimited": false,
-      "coverage": []
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
     },
     "sms": {
-      "perDay": null,
-      "total": null
+      "perDay": 100,
+      "total": 8400
     },
-    "isAddOn": true,
+    "isAddOn": false,
     "ott": {
       "isIncluded": true,
       "services": [
-        "JioHotstar",
-        "Netflix",
-        "Zee5",
-        "Sony LIV",
-        "Airtel Xstream Play"
+        "Hellotunes"
       ]
     },
-    "fiveG": false
+    "fiveG": true,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
   },
   {
-    "planId": "34",
-    "price": 39,
-    "category": "Data",
+    "planId": "airtel_979_84_2",
+    "price": 979,
+    "category": "Truly Unlimited",
     "validity": {
-      "days": 3,
+      "days": 84,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 2.0,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 8400
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_1099_84",
+    "price": 1099,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 84,
       "unit": "Calendar Day(s)"
     },
     "data": {
@@ -1245,178 +2566,42 @@
       "unit": "GB"
     },
     "voice": {
-      "isUnlimited": false,
-      "coverage": []
-    },
-    "sms": {
-      "perDay": null,
-      "total": null
-    },
-    "isAddOn": true,
-    "ott": {
-      "isIncluded": false,
-      "services": []
-    },
-    "fiveG": false
-  },
-  {
-    "planId": "35",
-    "price": 33,
-    "category": "Data",
-    "validity": {
-      "days": 1,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": false,
-      "isPerDay": false,
-      "perDayData": null,
-      "totalData": 2.0,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": false,
-      "coverage": []
-    },
-    "sms": {
-      "perDay": null,
-      "total": null
-    },
-    "isAddOn": true,
-    "ott": {
-      "isIncluded": false,
-      "services": []
-    },
-    "fiveG": false
-  },
-  {
-    "planId": "36",
-    "price": 49,
-    "category": "Data",
-    "validity": {
-      "days": 1,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
       "isUnlimited": true,
-      "isPerDay": false,
-      "perDayData": null,
-      "totalData": null,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": false,
-      "coverage": []
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
     },
     "sms": {
-      "perDay": null,
-      "total": null
+      "perDay": 100,
+      "total": 8400
     },
-    "isAddOn": true,
-    "ott": {
-      "isIncluded": false,
-      "services": []
-    },
-    "fiveG": false
-  },
-  {
-    "planId": "37",
-    "price": 100,
-    "category": "Data",
-    "validity": {
-      "days": 30,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": false,
-      "isPerDay": false,
-      "perDayData": null,
-      "totalData": 6.0,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": false,
-      "coverage": []
-    },
-    "sms": {
-      "perDay": null,
-      "total": null
-    },
-    "isAddOn": true,
+    "isAddOn": false,
     "ott": {
       "isIncluded": true,
       "services": [
-        "JioHotstar"
+        "Hellotunes"
       ]
     },
-    "fiveG": false
+    "fiveG": true,
+    "available_circles": [
+      "AP",
+      "AS",
+      "DL",
+      "HP",
+      "KA",
+      "NE",
+      "RJ",
+      "TN"
+    ]
   },
   {
-    "planId": "38",
-    "price": 161,
-    "category": "Data",
+    "planId": "airtel_1099_84_2",
+    "price": 1099,
+    "category": "Truly Unlimited",
     "validity": {
-      "days": 30,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": false,
-      "isPerDay": false,
-      "perDayData": null,
-      "totalData": 12.0,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": false,
-      "coverage": []
-    },
-    "sms": {
-      "perDay": null,
-      "total": null
-    },
-    "isAddOn": true,
-    "ott": {
-      "isIncluded": false,
-      "services": []
-    },
-    "fiveG": false
-  },
-  {
-    "planId": "39",
-    "price": 361,
-    "category": "Data",
-    "validity": {
-      "days": 30,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": false,
-      "isPerDay": false,
-      "perDayData": null,
-      "totalData": 50.0,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": false,
-      "coverage": []
-    },
-    "sms": {
-      "perDay": null,
-      "total": null
-    },
-    "isAddOn": true,
-    "ott": {
-      "isIncluded": false,
-      "services": []
-    },
-    "fiveG": false
-  },
-  {
-    "planId": "40",
-    "price": 99,
-    "category": "Data",
-    "validity": {
-      "days": 2,
+      "days": 84,
       "unit": "Calendar Day(s)"
     },
     "data": {
@@ -1427,230 +2612,818 @@
       "unit": "GB"
     },
     "voice": {
-      "isUnlimited": false,
-      "coverage": []
-    },
-    "sms": {
-      "perDay": null,
-      "total": null
-    },
-    "isAddOn": true,
-    "ott": {
-      "isIncluded": false,
-      "services": []
-    },
-    "fiveG": false
-  },
-  {
-    "planId": "41",
-    "price": 26,
-    "category": "Data",
-    "validity": {
-      "days": 1,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": false,
-      "isPerDay": false,
-      "perDayData": null,
-      "totalData": 1.5,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": false,
-      "coverage": []
-    },
-    "sms": {
-      "perDay": null,
-      "total": null
-    },
-    "isAddOn": true,
-    "ott": {
-      "isIncluded": false,
-      "services": []
-    },
-    "fiveG": true
-  },
-  {
-    "planId": "42",
-    "price": 51,
-    "category": "Data",
-    "validity": {
-      "days": null,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
       "isUnlimited": true,
-      "isPerDay": false,
-      "perDayData": null,
-      "totalData": 1.0,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": false,
-      "coverage": []
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
     },
     "sms": {
-      "perDay": null,
-      "total": null
+      "perDay": 100,
+      "total": 8400
     },
-    "isAddOn": true,
+    "isAddOn": false,
     "ott": {
-      "isIncluded": false,
-      "services": []
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
     },
-    "fiveG": true
+    "fiveG": true,
+    "available_circles": [
+      "BH",
+      "GJ",
+      "HR",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "OD",
+      "PB",
+      "UE",
+      "UW",
+      "WB"
+    ]
   },
   {
-    "planId": "43",
-    "price": 101,
-    "category": "Data",
+    "planId": "airtel_1099_84_3",
+    "price": 1099,
+    "category": "Truly Unlimited",
     "validity": {
-      "days": null,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": true,
-      "isPerDay": false,
-      "perDayData": null,
-      "totalData": 2.0,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": false,
-      "coverage": []
-    },
-    "sms": {
-      "perDay": null,
-      "total": null
-    },
-    "isAddOn": true,
-    "ott": {
-      "isIncluded": false,
-      "services": []
-    },
-    "fiveG": true
-  },
-  {
-    "planId": "44",
-    "price": 151,
-    "category": "Data",
-    "validity": {
-      "days": null,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": true,
-      "isPerDay": false,
-      "perDayData": null,
-      "totalData": 3.0,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": false,
-      "coverage": []
-    },
-    "sms": {
-      "perDay": null,
-      "total": null
-    },
-    "isAddOn": true,
-    "ott": {
-      "isIncluded": false,
-      "services": []
-    },
-    "fiveG": true
-  },
-  {
-    "planId": "45",
-    "price": 22,
-    "category": "Data",
-    "validity": {
-      "days": 1,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": false,
-      "isPerDay": false,
-      "perDayData": null,
-      "totalData": 1.0,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": false,
-      "coverage": []
-    },
-    "sms": {
-      "perDay": null,
-      "total": null
-    },
-    "isAddOn": true,
-    "ott": {
-      "isIncluded": false,
-      "services": []
-    },
-    "fiveG": false
-  },
-  {
-    "planId": "46",
-    "price": 77,
-    "category": "Data",
-    "validity": {
-      "days": 7,
-      "unit": "Calendar Day(s)"
-    },
-    "data": {
-      "isUnlimited": false,
-      "isPerDay": false,
-      "perDayData": null,
-      "totalData": 5.0,
-      "unit": "GB"
-    },
-    "voice": {
-      "isUnlimited": false,
-      "coverage": []
-    },
-    "sms": {
-      "perDay": null,
-      "total": null
-    },
-    "isAddOn": true,
-    "ott": {
-      "isIncluded": false,
-      "services": []
-    },
-    "fiveG": true
-  },
-  {
-    "planId": "47",
-    "price": 798,
-    "category": "Data",
-    "validity": {
-      "days": 40,
+      "days": 84,
       "unit": "Calendar Day(s)"
     },
     "data": {
       "isUnlimited": true,
       "isPerDay": true,
-      "perDayData": 1.0,
+      "perDayData": 3.0,
       "totalData": null,
       "unit": "GB"
     },
     "voice": {
-      "isUnlimited": false,
-      "coverage": []
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
     },
     "sms": {
-      "perDay": null,
-      "total": null
+      "perDay": 100,
+      "total": 8400
     },
-    "isAddOn": true,
+    "isAddOn": false,
     "ott": {
       "isIncluded": true,
       "services": [
-        "Zee5"
+        "Hellotunes"
       ]
     },
-    "fiveG": false
+    "fiveG": true,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_1199_84",
+    "price": 1199,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 84,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 2.5,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 8400
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Amazon Prime",
+        "Sony LIV",
+        "Airtel Xstream Play",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_1199_84_2",
+    "price": 1199,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 84,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 2.5,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 8400
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Amazon Prime",
+        "Sony LIV",
+        "Airtel Xstream Play",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_1729_84",
+    "price": 1729,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 84,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 2.0,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 8400
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "JioHotstar",
+        "Netflix",
+        "Zee5",
+        "Airtel Xstream Play",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_1729_84_2",
+    "price": 1729,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 84,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 2.0,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 8400
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "JioHotstar",
+        "Netflix",
+        "Zee5",
+        "Airtel Xstream Play",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_1798_84",
+    "price": 1798,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 84,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 3.0,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 8400
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Netflix",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_1798_84_2",
+    "price": 1798,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 84,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 3.0,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 8400
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Netflix",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_1849_365",
+    "price": 1849,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 365,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
+    },
+    "sms": {
+      "perDay": null,
+      "total": 3600
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
+    },
+    "fiveG": false,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_1849_365_2",
+    "price": 1849,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 365,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": null,
+      "total": 3600
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
+    },
+    "fiveG": false,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_2249_365",
+    "price": 2249,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 365,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 30.0,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
+    },
+    "sms": {
+      "perDay": null,
+      "total": 3600
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Sony LIV",
+        "Airtel Xstream Play",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": false,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_2249_365_2",
+    "price": 2249,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 365,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": false,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": 30.0,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": null,
+      "total": 3600
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Sony LIV",
+        "Airtel Xstream Play",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": false,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_3599_365",
+    "price": 3599,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 365,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 2.0,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 36500
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Sony LIV",
+        "Airtel Xstream Play",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "AP",
+      "AS",
+      "BH",
+      "DL",
+      "GJ",
+      "HP",
+      "HR",
+      "KA",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "NE",
+      "OD",
+      "PB",
+      "RJ",
+      "TN",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_3599_365_2",
+    "price": 3599,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 365,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 2.0,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 36500
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Sony LIV",
+        "Airtel Xstream Play",
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "JK"
+    ]
+  },
+  {
+    "planId": "airtel_3999_365",
+    "price": 3999,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 365,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 2.5,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 36500
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "AP",
+      "AS",
+      "DL",
+      "HP",
+      "KA",
+      "NE",
+      "RJ",
+      "TN"
+    ]
+  },
+  {
+    "planId": "airtel_3999_365_2",
+    "price": 3999,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 365,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": false,
+      "perDayData": null,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD",
+        "roaming"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 36500
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "BH",
+      "GJ",
+      "HR",
+      "KL",
+      "KO",
+      "MH",
+      "MP",
+      "MU",
+      "OD",
+      "PB",
+      "UE",
+      "UW",
+      "WB"
+    ]
+  },
+  {
+    "planId": "airtel_3999_365_3",
+    "price": 3999,
+    "category": "Truly Unlimited",
+    "validity": {
+      "days": 365,
+      "unit": "Calendar Day(s)"
+    },
+    "data": {
+      "isUnlimited": true,
+      "isPerDay": true,
+      "perDayData": 2.5,
+      "totalData": null,
+      "unit": "GB"
+    },
+    "voice": {
+      "isUnlimited": true,
+      "coverage": [
+        "local",
+        "STD"
+      ]
+    },
+    "sms": {
+      "perDay": 100,
+      "total": 36500
+    },
+    "isAddOn": false,
+    "ott": {
+      "isIncluded": true,
+      "services": [
+        "Hellotunes"
+      ]
+    },
+    "fiveG": true,
+    "available_circles": [
+      "JK"
+    ]
   }
 ]

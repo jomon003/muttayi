@@ -55,6 +55,7 @@ export class PlanNormalizer {
       pricePerGB,
       isDataAddon: plan.isAddOn,
       category: plan.category,
+      circles: plan.available_circles,
     };
   }
 
@@ -87,7 +88,9 @@ export class PlanNormalizer {
     // Determine category - prioritize planType flags for consistency
     let category: string;
 
-    if (plan.planType?.isDataPack) {
+    if (plan.planType?.isAddOn) {
+      category = 'Add-on';
+    } else if (plan.planType?.isDataPack) {
       category = 'Data';
     } else if (plan.planType?.isJioPhone) {
       category = 'JioPhone';
@@ -137,6 +140,7 @@ export class PlanNormalizer {
       category,
       isCalendarMonth: plan.isCalendarMonth || false,
       isDataPack: plan.planType?.isDataPack || false,
+      isAddOn: plan.planType?.isAddOn || false,
     };
   }
   static normalizeBSNLPlan(plan: BSNLPlan, index: number): NormalizedPlan {
@@ -358,7 +362,7 @@ export class PlanFilter {
       // If "Show Only Selected Categories" mode is enabled
       if (preferences.showOnlySpecialCategories) {
         // EXCLUSIVE MODE: Only show enabled special categories
-        const isDataPackEnabled = plan.isDataPack && preferences.includeDataPacks;
+        const isDataPackEnabled = (plan.isDataPack || plan.isAddOn) && preferences.includeDataPacks;
         const isJioPhoneEnabled = plan.category === 'JioPhone' && preferences.includeJioPhone;
         const isJioPhonePrimaEnabled = plan.category === 'JioPhone Prima' && preferences.includeJioPhonePrima;
         const isJioBharatEnabled = plan.category === 'JioBharat' && preferences.includeJioBharat;
@@ -373,7 +377,7 @@ export class PlanFilter {
         }
       } else {
         // NORMAL MODE: Hide special categories unless explicitly enabled
-        if (plan.isDataPack && !preferences.includeDataPacks) {
+        if ((plan.isDataPack || plan.isAddOn) && !preferences.includeDataPacks) {
           return false;
         }
         if (plan.category === 'JioPhone' && !preferences.includeJioPhone) {

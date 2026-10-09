@@ -1,7 +1,48 @@
 {
   "plans": [
     {
-      "id": "jio_349_28_1",
+      "id": "jio_3599_365_1",
+      "name": "JUST ₹277/MO + BIG BENEFITS",
+      "price": 3599,
+      "validityDays": 365,
+      "isCalendarMonth": false,
+      "dailyData": {
+        "amount": 2.5
+      },
+      "totalData": {
+        "amount": 912.5
+      },
+      "voice": {
+        "isUnlimited": true,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": 100,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "jioTV": true,
+        "jioCloud": true
+      },
+      "planType": {
+        "isRecharge": true,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false,
+        "isAddOn": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_349_28_2",
       "name": "Jio Popular Plans Plan",
       "price": 349,
       "validityDays": 28,
@@ -33,7 +74,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -41,8 +83,8 @@
       "terms": ""
     },
     {
-      "id": "jio_200_28_2",
-      "name": "IND VS ENG, 15 OTT + 30 GB",
+      "id": "jio_200_28_3",
+      "name": "FREE KUKU TV+ 15 OTT",
       "price": 200,
       "validityDays": 28,
       "isCalendarMonth": false,
@@ -61,64 +103,32 @@
       "has5G": true,
       "unlimited5G": true,
       "ottSubscriptions": {
+        "youtubePremium": true,
         "amazonPrime": true,
         "hotstar": true,
+        "sonyLIV": true,
         "zee5": true,
         "lionsgate": true,
         "discoveryPlus": true,
         "sunNxt": true,
+        "kancchaLannka": true,
+        "etvWin": true,
+        "chaupal": true,
         "hoichoi": true,
         "fancode": true,
+        "timesPlay": true,
+        "tarangPlus": true,
         "jioTV": true
       },
       "planType": {
-        "isRecharge": true,
-        "isDataPack": false,
+        "isRecharge": false,
+        "isDataPack": true,
         "isJioPhone": false,
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
-      },
-      "category": "Popular Plans",
-      "description": "Jio Popular Plans",
-      "benefits": [],
-      "terms": ""
-    },
-    {
-      "id": "jio_3599_365_3",
-      "name": "5G + AI + MOVIES + HOLLYWOOD",
-      "price": 3599,
-      "validityDays": 365,
-      "isCalendarMonth": false,
-      "dailyData": {
-        "amount": 2.5
-      },
-      "totalData": {
-        "amount": 912.5
-      },
-      "voice": {
-        "isUnlimited": true,
-        "minutes": null
-      },
-      "sms": {
-        "dailyLimit": 100,
-        "totalCount": null
-      },
-      "has5G": true,
-      "unlimited5G": true,
-      "ottSubscriptions": {
-        "jioTV": true,
-        "jioCloud": true
-      },
-      "planType": {
-        "isRecharge": true,
-        "isDataPack": false,
-        "isJioPhone": false,
-        "isJioPhonePrima": false,
-        "isJioPhoneDataAddon": false,
-        "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -127,7 +137,7 @@
     },
     {
       "id": "jio_399_28_4",
-      "name": "SPORTS+GAMING+MOVIE+HOLLYWOOD",
+      "name": "CANVA PRO WORTH ₹4000",
       "price": 399,
       "validityDays": 28,
       "isCalendarMonth": false,
@@ -160,7 +170,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -200,7 +211,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -208,47 +220,33 @@
       "terms": ""
     },
     {
-      "id": "jio_500_28_6",
-      "name": "MEGA CONTENT PLAN",
-      "price": 500,
-      "validityDays": 28,
+      "id": "jio_1000_365_6",
+      "name": "JIOSHIELD+CANVA PRO+5G @₹83/MONTH",
+      "price": 1000,
+      "validityDays": 365,
       "isCalendarMonth": false,
-      "dailyData": {
-        "amount": 2.0
-      },
-      "totalData": {
-        "amount": 56.0
-      },
+      "dailyData": null,
+      "totalData": null,
       "voice": {
-        "isUnlimited": true,
+        "isUnlimited": false,
         "minutes": null
       },
       "sms": {
-        "dailyLimit": 100,
+        "dailyLimit": null,
         "totalCount": null
       },
-      "has5G": true,
-      "unlimited5G": true,
-      "ottSubscriptions": {
-        "amazonPrime": true,
-        "hotstar": true,
-        "zee5": true,
-        "lionsgate": true,
-        "discoveryPlus": true,
-        "sunNxt": true,
-        "hoichoi": true,
-        "fancode": true,
-        "jioTV": true,
-        "jioCloud": true
-      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
       "planType": {
-        "isRecharge": true,
+        "isRecharge": false,
         "isDataPack": false,
         "isJioPhone": false,
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": true
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -256,7 +254,43 @@
       "terms": ""
     },
     {
-      "id": "jio_111_28_7",
+      "id": "jio_55_3_7",
+      "name": "3 GB DATA + 1000 TV CHANNELS",
+      "price": 55,
+      "validityDays": 3,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 3.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false,
+        "isAddOn": false
+      },
+      "category": "Popular Plans",
+      "description": "Jio Popular Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_111_28_8",
       "name": "FLEXI YOUTH AND GAMING PACK",
       "price": 111,
       "validityDays": 28,
@@ -277,13 +311,14 @@
       "unlimited5G": false,
       "ottSubscriptions": {},
       "planType": {
-        "isRecharge": true,
-        "isDataPack": false,
+        "isRecharge": false,
+        "isDataPack": true,
         "isJioPhone": false,
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -291,7 +326,7 @@
       "terms": ""
     },
     {
-      "id": "jio_459_28_8",
+      "id": "jio_459_28_9",
       "name": "YOUTH & GAMING PLAN",
       "price": 459,
       "validityDays": 28,
@@ -324,46 +359,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
-      },
-      "category": "Popular Plans",
-      "description": "Jio Popular Plans",
-      "benefits": [],
-      "terms": ""
-    },
-    {
-      "id": "jio_798_40_9",
-      "name": "FOOTBALL PASS",
-      "price": 798,
-      "validityDays": 40,
-      "isCalendarMonth": false,
-      "dailyData": {
-        "amount": 1.0
-      },
-      "totalData": {
-        "amount": 40.0
-      },
-      "voice": {
-        "isUnlimited": false,
-        "minutes": null
-      },
-      "sms": {
-        "dailyLimit": null,
-        "totalCount": null
-      },
-      "has5G": false,
-      "unlimited5G": false,
-      "ottSubscriptions": {
-        "zee5": true
-      },
-      "planType": {
-        "isRecharge": true,
-        "isDataPack": false,
-        "isJioPhone": false,
-        "isJioPhonePrima": false,
-        "isJioPhoneDataAddon": false,
-        "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -400,7 +397,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -440,7 +438,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -467,7 +466,9 @@
       },
       "has5G": false,
       "unlimited5G": false,
-      "ottSubscriptions": {},
+      "ottSubscriptions": {
+        "sonyLIV": true
+      },
       "planType": {
         "isRecharge": false,
         "isDataPack": true,
@@ -475,7 +476,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -483,25 +485,45 @@
       "terms": ""
     },
     {
-      "id": "jio_55_30_13",
-      "name": "1000+ LIVE TV CHANNELS",
-      "price": 55,
-      "validityDays": 30,
+      "id": "jio_500_28_13",
+      "name": "MEGA CONTENT PLAN",
+      "price": 500,
+      "validityDays": 28,
       "isCalendarMonth": false,
-      "dailyData": null,
-      "totalData": null,
+      "dailyData": {
+        "amount": 2.0
+      },
+      "totalData": {
+        "amount": 56.0
+      },
       "voice": {
-        "isUnlimited": false,
+        "isUnlimited": true,
         "minutes": null
       },
       "sms": {
-        "dailyLimit": null,
+        "dailyLimit": 100,
         "totalCount": null
       },
-      "has5G": false,
-      "unlimited5G": false,
+      "has5G": true,
+      "unlimited5G": true,
       "ottSubscriptions": {
-        "discoveryPlus": true
+        "youtubePremium": true,
+        "amazonPrime": true,
+        "hotstar": true,
+        "sonyLIV": true,
+        "zee5": true,
+        "lionsgate": true,
+        "discoveryPlus": true,
+        "sunNxt": true,
+        "kancchaLannka": true,
+        "etvWin": true,
+        "chaupal": true,
+        "hoichoi": true,
+        "fancode": true,
+        "timesPlay": true,
+        "tarangPlus": true,
+        "jioTV": true,
+        "jioCloud": true
       },
       "planType": {
         "isRecharge": true,
@@ -510,7 +532,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -550,7 +573,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -591,7 +615,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -631,7 +656,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -672,7 +698,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -712,7 +739,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -753,7 +781,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -783,6 +812,7 @@
       "has5G": true,
       "unlimited5G": true,
       "ottSubscriptions": {
+        "sonyLIV": true,
         "zee5": true,
         "jioTV": true,
         "jioCloud": true
@@ -794,7 +824,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -834,7 +865,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -843,7 +875,7 @@
     },
     {
       "id": "jio_949_84_22",
-      "name": "JIOHOTSTAR INCLUDED",
+      "name": "JIOHOTSTAR MOBILE INCLUDED",
       "price": 949,
       "validityDays": 84,
       "isCalendarMonth": false,
@@ -875,7 +907,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -915,7 +948,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -955,7 +989,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -995,7 +1030,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -1035,7 +1071,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -1065,10 +1102,14 @@
       "has5G": true,
       "unlimited5G": true,
       "ottSubscriptions": {
+        "sonyLIV": true,
         "zee5": true,
         "lionsgate": true,
         "discoveryPlus": true,
         "sunNxt": true,
+        "kancchaLannka": true,
+        "etvWin": true,
+        "chaupal": true,
         "hoichoi": true,
         "fancode": true,
         "jioTV": true,
@@ -1081,7 +1122,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -1094,8 +1136,12 @@
       "price": 889,
       "validityDays": 84,
       "isCalendarMonth": false,
-      "dailyData": null,
-      "totalData": null,
+      "dailyData": {
+        "amount": 1.5
+      },
+      "totalData": {
+        "amount": 126.0
+      },
       "voice": {
         "isUnlimited": true,
         "minutes": null
@@ -1118,7 +1164,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -1158,7 +1205,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -1198,7 +1246,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -1211,8 +1260,12 @@
       "price": 329,
       "validityDays": 28,
       "isCalendarMonth": false,
-      "dailyData": null,
-      "totalData": null,
+      "dailyData": {
+        "amount": 1.5
+      },
+      "totalData": {
+        "amount": 42.0
+      },
       "voice": {
         "isUnlimited": true,
         "minutes": null
@@ -1235,7 +1288,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -1273,7 +1327,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -1313,7 +1368,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -1353,7 +1409,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -1394,7 +1451,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -1434,7 +1492,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -1474,7 +1533,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -1512,7 +1572,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Popular Plans",
       "description": "Jio Popular Plans",
@@ -1521,7 +1582,7 @@
     },
     {
       "id": "jio_545_28_39",
-      "name": "Jio Youth & Gaming Plan",
+      "name": "CRICKET 26 +1000 AAA GAMES",
       "price": 545,
       "validityDays": 28,
       "isCalendarMonth": false,
@@ -1542,9 +1603,9 @@
       "has5G": true,
       "unlimited5G": true,
       "ottSubscriptions": {
-        "jioCloud": true,
         "fancode": true,
-        "jioTV": true
+        "jioTV": true,
+        "jioCloud": true
       },
       "planType": {
         "isRecharge": false,
@@ -1553,7 +1614,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": true
+        "isGaming": true,
+        "isAddOn": false
       },
       "category": "Youth & Gaming",
       "description": "Jio Youth & Gaming",
@@ -1562,7 +1624,7 @@
     },
     {
       "id": "jio_495_28_40",
-      "name": "Jio Youth & Gaming Plan",
+      "name": "CRICKET 26 +1000 AAA GAMES",
       "price": 495,
       "validityDays": 28,
       "isCalendarMonth": false,
@@ -1583,9 +1645,9 @@
       "has5G": false,
       "unlimited5G": false,
       "ottSubscriptions": {
-        "jioCloud": true,
         "fancode": true,
-        "jioTV": true
+        "jioTV": true,
+        "jioCloud": true
       },
       "planType": {
         "isRecharge": false,
@@ -1594,7 +1656,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": true
+        "isGaming": true,
+        "isAddOn": false
       },
       "category": "Youth & Gaming",
       "description": "Jio Youth & Gaming",
@@ -1603,12 +1666,14 @@
     },
     {
       "id": "jio_48_3_41",
-      "name": "GAMING ADD-ON",
+      "name": "CRICKET 26 +1000 AAA GAMES",
       "price": 48,
       "validityDays": 3,
       "isCalendarMonth": false,
       "dailyData": null,
-      "totalData": null,
+      "totalData": {
+        "amount": 0.0098
+      },
       "voice": {
         "isUnlimited": false,
         "minutes": null
@@ -1619,9 +1684,7 @@
       },
       "has5G": false,
       "unlimited5G": false,
-      "ottSubscriptions": {
-        "jioCloud": true
-      },
+      "ottSubscriptions": {},
       "planType": {
         "isRecharge": false,
         "isDataPack": true,
@@ -1629,7 +1692,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Youth & Gaming",
       "description": "Jio Youth & Gaming",
@@ -1638,7 +1702,7 @@
     },
     {
       "id": "jio_298_28_42",
-      "name": "GAMING ADD-ON",
+      "name": "CRICKET 26 +1000 AAA GAMES",
       "price": 298,
       "validityDays": 28,
       "isCalendarMonth": false,
@@ -1656,9 +1720,7 @@
       },
       "has5G": false,
       "unlimited5G": false,
-      "ottSubscriptions": {
-        "jioCloud": true
-      },
+      "ottSubscriptions": {},
       "planType": {
         "isRecharge": false,
         "isDataPack": true,
@@ -1666,7 +1728,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Youth & Gaming",
       "description": "Jio Youth & Gaming",
@@ -1675,12 +1738,14 @@
     },
     {
       "id": "jio_98_7_43",
-      "name": "GAMING ADD-ON",
+      "name": "CRICKET 26 +1000 AAA GAMES",
       "price": 98,
       "validityDays": 7,
       "isCalendarMonth": false,
       "dailyData": null,
-      "totalData": null,
+      "totalData": {
+        "amount": 0.0098
+      },
       "voice": {
         "isUnlimited": false,
         "minutes": null
@@ -1691,8 +1756,59 @@
       },
       "has5G": false,
       "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false,
+        "isAddOn": false
+      },
+      "category": "Youth & Gaming",
+      "description": "Jio Youth & Gaming",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_550_84_44",
+      "name": "3M OTT PASS – 15 OTTS+1000 TV CHANNELS",
+      "price": 550,
+      "validityDays": 84,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 90.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
       "ottSubscriptions": {
-        "jioCloud": true
+        "youtubePremium": true,
+        "amazonPrime": true,
+        "hotstar": true,
+        "sonyLIV": true,
+        "zee5": true,
+        "lionsgate": true,
+        "discoveryPlus": true,
+        "sunNxt": true,
+        "kancchaLannka": true,
+        "etvWin": true,
+        "chaupal": true,
+        "hoichoi": true,
+        "fancode": true,
+        "timesPlay": true,
+        "tarangPlus": true,
+        "jioTV": true
       },
       "planType": {
         "isRecharge": false,
@@ -1701,15 +1817,69 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
-      "category": "Youth & Gaming",
-      "description": "Jio Youth & Gaming",
+      "category": "Entertainment Plans",
+      "description": "Jio Entertainment Plans",
       "benefits": [],
       "terms": ""
     },
     {
-      "id": "jio_175_28_44",
+      "id": "jio_2000_365_45",
+      "name": "12M OTT PASS – 15 OTTS+1000 TV CHANNELS",
+      "price": 2000,
+      "validityDays": 365,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": {
+        "amount": 365.0
+      },
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": true,
+      "unlimited5G": true,
+      "ottSubscriptions": {
+        "youtubePremium": true,
+        "amazonPrime": true,
+        "hotstar": true,
+        "sonyLIV": true,
+        "zee5": true,
+        "lionsgate": true,
+        "discoveryPlus": true,
+        "sunNxt": true,
+        "kancchaLannka": true,
+        "etvWin": true,
+        "chaupal": true,
+        "hoichoi": true,
+        "fancode": true,
+        "timesPlay": true,
+        "tarangPlus": true,
+        "jioTV": true
+      },
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": true,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false,
+        "isAddOn": false
+      },
+      "category": "Entertainment Plans",
+      "description": "Jio Entertainment Plans",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_175_28_46",
       "name": "DATA ONLY PACK + 10 OTT",
       "price": 175,
       "validityDays": 28,
@@ -1729,10 +1899,14 @@
       "has5G": false,
       "unlimited5G": false,
       "ottSubscriptions": {
+        "sonyLIV": true,
         "zee5": true,
         "lionsgate": true,
         "discoveryPlus": true,
         "sunNxt": true,
+        "kancchaLannka": true,
+        "etvWin": true,
+        "chaupal": true,
         "hoichoi": true,
         "jioTV": true
       },
@@ -1743,7 +1917,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Entertainment Plans",
       "description": "Jio Entertainment Plans",
@@ -1751,7 +1926,7 @@
       "terms": ""
     },
     {
-      "id": "jio_195_30_45",
+      "id": "jio_195_30_47",
       "name": "JIOHOTSTAR DATA PACK",
       "price": 195,
       "validityDays": 30,
@@ -1780,7 +1955,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Entertainment Plans",
       "description": "Jio Entertainment Plans",
@@ -1788,7 +1964,7 @@
       "terms": ""
     },
     {
-      "id": "jio_100_30_46",
+      "id": "jio_100_30_48",
       "name": "JIOHOTSTAR DATA PACK",
       "price": 100,
       "validityDays": 30,
@@ -1817,7 +1993,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Entertainment Plans",
       "description": "Jio Entertainment Plans",
@@ -1825,7 +2002,7 @@
       "terms": ""
     },
     {
-      "id": "jio_79_30_47",
+      "id": "jio_79_30_49",
       "name": "JIOHOTSTAR DATA PACK",
       "price": 79,
       "validityDays": 30,
@@ -1854,7 +2031,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Entertainment Plans",
       "description": "Jio Entertainment Plans",
@@ -1862,7 +2040,7 @@
       "terms": ""
     },
     {
-      "id": "jio_103_28_48",
+      "id": "jio_103_28_50",
       "name": "FLEXI OTT PACK",
       "price": 103,
       "validityDays": 28,
@@ -1889,7 +2067,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Data Packs",
       "description": "Jio Data Packs",
@@ -1897,7 +2076,7 @@
       "terms": ""
     },
     {
-      "id": "jio_39_3_49",
+      "id": "jio_39_3_51",
       "name": "DATA ONLY PACK",
       "price": 39,
       "validityDays": 3,
@@ -1926,7 +2105,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Data Packs",
       "description": "Jio Data Packs",
@@ -1934,7 +2114,7 @@
       "terms": ""
     },
     {
-      "id": "jio_49_1_50",
+      "id": "jio_49_1_52",
       "name": "UNLIMITED DATA PACK",
       "price": 49,
       "validityDays": 1,
@@ -1961,7 +2141,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Data Packs",
       "description": "Jio Data Packs",
@@ -1969,7 +2150,7 @@
       "terms": ""
     },
     {
-      "id": "jio_69_7_51",
+      "id": "jio_69_7_53",
       "name": "DATA ONLY PACK",
       "price": 69,
       "validityDays": 7,
@@ -1996,7 +2177,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Data Packs",
       "description": "Jio Data Packs",
@@ -2004,7 +2186,7 @@
       "terms": ""
     },
     {
-      "id": "jio_139_7_52",
+      "id": "jio_139_7_54",
       "name": "DATA ONLY PACK",
       "price": 139,
       "validityDays": 7,
@@ -2031,7 +2213,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Data Packs",
       "description": "Jio Data Packs",
@@ -2039,7 +2222,7 @@
       "terms": ""
     },
     {
-      "id": "jio_29_2_53",
+      "id": "jio_29_2_55",
       "name": "DATA ONLY PACK",
       "price": 29,
       "validityDays": 2,
@@ -2066,7 +2249,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Data Packs",
       "description": "Jio Data Packs",
@@ -2074,7 +2258,7 @@
       "terms": ""
     },
     {
-      "id": "jio_19_1_54",
+      "id": "jio_19_1_56",
       "name": "DATA ONLY PACK",
       "price": 19,
       "validityDays": 1,
@@ -2101,7 +2285,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Data Packs",
       "description": "Jio Data Packs",
@@ -2109,7 +2294,7 @@
       "terms": ""
     },
     {
-      "id": "jio_11_0_55",
+      "id": "jio_11_0_57",
       "name": "DATA ONLY PACK",
       "price": 11,
       "validityDays": 0,
@@ -2136,7 +2321,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Data Packs",
       "description": "Jio Data Packs",
@@ -2144,7 +2330,7 @@
       "terms": ""
     },
     {
-      "id": "jio_219_30_56",
+      "id": "jio_219_30_58",
       "name": "DATA ONLY PACK",
       "price": 219,
       "validityDays": 30,
@@ -2171,7 +2357,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Data Packs",
       "description": "Jio Data Packs",
@@ -2179,7 +2366,7 @@
       "terms": ""
     },
     {
-      "id": "jio_289_30_57",
+      "id": "jio_289_30_59",
       "name": "DATA ONLY PACK",
       "price": 289,
       "validityDays": 30,
@@ -2206,7 +2393,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Data Packs",
       "description": "Jio Data Packs",
@@ -2214,7 +2402,7 @@
       "terms": ""
     },
     {
-      "id": "jio_359_30_58",
+      "id": "jio_359_30_60",
       "name": "DATA ONLY PACK",
       "price": 359,
       "validityDays": 30,
@@ -2241,7 +2429,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Data Packs",
       "description": "Jio Data Packs",
@@ -2249,7 +2438,7 @@
       "terms": ""
     },
     {
-      "id": "jio_182_28_59",
+      "id": "jio_182_28_61",
       "name": "Jio 4G Feature Phone Addon Plan",
       "price": 182,
       "validityDays": 28,
@@ -2278,7 +2467,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": true,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "4G Feature Phone Addon",
       "description": "Jio 4G Feature Phone Addon",
@@ -2286,7 +2476,7 @@
       "terms": ""
     },
     {
-      "id": "jio_122_28_60",
+      "id": "jio_122_28_62",
       "name": "Jio 4G Feature Phone Addon Plan",
       "price": 122,
       "validityDays": 28,
@@ -2315,7 +2505,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": true,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "4G Feature Phone Addon",
       "description": "Jio 4G Feature Phone Addon",
@@ -2323,7 +2514,7 @@
       "terms": ""
     },
     {
-      "id": "jio_86_28_61",
+      "id": "jio_86_28_63",
       "name": "Jio 4G Feature Phone Addon Plan",
       "price": 86,
       "validityDays": 28,
@@ -2352,7 +2543,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": true,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "4G Feature Phone Addon",
       "description": "Jio 4G Feature Phone Addon",
@@ -2360,7 +2552,7 @@
       "terms": ""
     },
     {
-      "id": "jio_62_28_62",
+      "id": "jio_62_28_64",
       "name": "Jio 4G Feature Phone Addon Plan",
       "price": 62,
       "validityDays": 28,
@@ -2387,7 +2579,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": true,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "4G Feature Phone Addon",
       "description": "Jio 4G Feature Phone Addon",
@@ -2395,7 +2588,7 @@
       "terms": ""
     },
     {
-      "id": "jio_26_28_63",
+      "id": "jio_26_28_65",
       "name": "Jio 4G Feature Phone Addon Plan",
       "price": 26,
       "validityDays": 28,
@@ -2422,7 +2615,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": true,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "4G Feature Phone Addon",
       "description": "Jio 4G Feature Phone Addon",
@@ -2430,7 +2624,7 @@
       "terms": ""
     },
     {
-      "id": "jio_1234_336_64",
+      "id": "jio_1234_336_66",
       "name": "Jio 4G Feature Phone Plan Plan",
       "price": 1234,
       "validityDays": 336,
@@ -2462,7 +2656,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "4G Feature Phone Plan",
       "description": "Jio 4G Feature Phone Plan",
@@ -2470,7 +2665,7 @@
       "terms": ""
     },
     {
-      "id": "jio_369_84_65",
+      "id": "jio_369_84_67",
       "name": "Jio 4G Feature Phone Plan Plan",
       "price": 369,
       "validityDays": 84,
@@ -2502,7 +2697,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "4G Feature Phone Plan",
       "description": "Jio 4G Feature Phone Plan",
@@ -2510,7 +2706,7 @@
       "terms": ""
     },
     {
-      "id": "jio_234_56_66",
+      "id": "jio_234_56_68",
       "name": "Jio 4G Feature Phone Plan Plan",
       "price": 234,
       "validityDays": 56,
@@ -2542,7 +2738,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "4G Feature Phone Plan",
       "description": "Jio 4G Feature Phone Plan",
@@ -2550,7 +2747,7 @@
       "terms": ""
     },
     {
-      "id": "jio_123_28_67",
+      "id": "jio_123_28_69",
       "name": "Jio 4G Feature Phone Plan Plan",
       "price": 123,
       "validityDays": 28,
@@ -2582,7 +2779,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "4G Feature Phone Plan",
       "description": "Jio 4G Feature Phone Plan",
@@ -2590,7 +2788,7 @@
       "terms": ""
     },
     {
-      "id": "jio_1748_336_68",
+      "id": "jio_1748_336_70",
       "name": "VOICE ONLY PLAN",
       "price": 1748,
       "validityDays": 336,
@@ -2618,7 +2816,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Value",
       "description": "Jio Value",
@@ -2626,7 +2825,7 @@
       "terms": ""
     },
     {
-      "id": "jio_448_84_69",
+      "id": "jio_448_84_71",
       "name": "VOICE ONLY PLAN",
       "price": 448,
       "validityDays": 84,
@@ -2654,7 +2853,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Value",
       "description": "Jio Value",
@@ -2662,7 +2862,7 @@
       "terms": ""
     },
     {
-      "id": "jio_799_84_70",
+      "id": "jio_799_84_72",
       "name": "Jio Value Plan",
       "price": 799,
       "validityDays": 84,
@@ -2694,7 +2894,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Value",
       "description": "Jio Value",
@@ -2702,7 +2903,7 @@
       "terms": ""
     },
     {
-      "id": "jio_189_28_71",
+      "id": "jio_189_28_73",
       "name": "Jio Value Plan",
       "price": 189,
       "validityDays": 28,
@@ -2732,7 +2933,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Value",
       "description": "Jio Value",
@@ -2740,7 +2942,7 @@
       "terms": ""
     },
     {
-      "id": "jio_339_30_72",
+      "id": "jio_339_30_74",
       "name": "Jio Value Plan",
       "price": 339,
       "validityDays": 30,
@@ -2770,7 +2972,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Value",
       "description": "Jio Value",
@@ -2778,13 +2981,15 @@
       "terms": ""
     },
     {
-      "id": "jio_365_30_73",
+      "id": "jio_365_30_75",
       "name": "Jio Value Plan",
       "price": 365,
       "validityDays": 30,
       "isCalendarMonth": false,
       "dailyData": null,
-      "totalData": null,
+      "totalData": {
+        "amount": 25.0
+      },
       "voice": {
         "isUnlimited": true,
         "minutes": null
@@ -2806,7 +3011,8 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
       },
       "category": "Value",
       "description": "Jio Value",
@@ -2814,7 +3020,7 @@
       "terms": ""
     },
     {
-      "id": "jio_199_18_74",
+      "id": "jio_199_18_76",
       "name": "Jio Value Plan",
       "price": 199,
       "validityDays": 18,
@@ -2846,7 +3052,42 @@
         "isJioPhonePrima": false,
         "isJioPhoneDataAddon": false,
         "isJioBharatPhone": false,
-        "isGaming": false
+        "isGaming": false,
+        "isAddOn": false
+      },
+      "category": "Value",
+      "description": "Jio Value",
+      "benefits": [],
+      "terms": ""
+    },
+    {
+      "id": "jio_300_330_77",
+      "name": "JIO PRIME",
+      "price": 300,
+      "validityDays": 330,
+      "isCalendarMonth": false,
+      "dailyData": null,
+      "totalData": null,
+      "voice": {
+        "isUnlimited": false,
+        "minutes": null
+      },
+      "sms": {
+        "dailyLimit": null,
+        "totalCount": null
+      },
+      "has5G": false,
+      "unlimited5G": false,
+      "ottSubscriptions": {},
+      "planType": {
+        "isRecharge": false,
+        "isDataPack": false,
+        "isJioPhone": false,
+        "isJioPhonePrima": false,
+        "isJioPhoneDataAddon": false,
+        "isJioBharatPhone": false,
+        "isGaming": false,
+        "isAddOn": true
       },
       "category": "Value",
       "description": "Jio Value",

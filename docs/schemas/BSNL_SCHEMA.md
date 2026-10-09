@@ -408,22 +408,24 @@ According to application code comments:
 - **Type:** `string[]`
 - **Description:** Array of telecom circle codes where plan is available
 - **Format:** Two-letter state/UT codes
-- **All Possible Codes (34 circles):**
+- **All Possible Codes (38 circles, app canonical codes — see src/constants/circles.ts):**
   ```
-  AP  - Andhra Pradesh        AR  - Arunachal Pradesh    AS  - Assam
-  BR  - Bihar                 CG  - Chhattisgarh        CH  - Chandigarh
-  CN  - Chennai               DD  - Daman & Diu         DN  - Delhi NCR
-  GA  - Goa                   GJ  - Gujarat             HP  - Himachal Pradesh
-  HR  - Haryana               JH  - Jharkhand           JK  - Jammu & Kashmir
-  KA  - Karnataka             KL  - Kerala             KO  - Kolkata
-  LD  - Lakshadweep           MH  - Maharashtra        ML  - Meghalaya
-  MN  - Manipur               MP  - Madhya Pradesh     MZ  - Mizoram
-  NL  - Nagaland              OR  - Odisha             PB  - Punjab
-  PY  - Puducherry            RJ  - Rajasthan          SK  - Sikkim
-  TN  - Tamil Nadu            TR  - Tripura            TS  - Telangana
-  UA  - Uttarakhand           UE  - UP East            UW  - UP West
-  WB  - West Bengal
+  AN - Andaman & Nicobar      AP - Andhra Pradesh       AR - Arunachal Pradesh
+  AS - Assam                  BR - Bihar                CH - Chandigarh UT
+  CN - Chennai                CT - Chhattisgarh         DD - Dadra & Nagar Haveli UT
+  DN - Daman & Diu UT         GA - Goa                  GJ - Gujarat
+  HP - Himachal Pradesh       HR - Haryana              JH - Jharkhand
+  JK - Jammu & Kashmir        KA - Karnataka            KL - Kerala
+  KO - Kolkata                LD - Lakshadweep UT       MH - Maharashtra
+  ML - Meghalaya              MN - Manipur              MP - Madhya Pradesh
+  MZ - Mizoram                NL - Nagaland             OR - Odisha
+  PB - Punjab                 PY - Puducherry UT        RJ - Rajasthan
+  SK - Sikkim                 TN - Tamil Nadu           TR - Tripura
+  TS - Telangana              UE - UP East              UK - Uttarakhand
+  UW - UP West                WB - West Bengal
   ```
+  No Delhi / Mumbai / Ladakh (MTNL territory). The BSNL portal uses different codes
+  (KE, KOL, BH, CG, UL, CD, CH) — the data always uses the codes above.
 - **Examples:**
   ```json
   ["AP", "KA", "TN", "KL"]  // South India only
@@ -611,7 +613,7 @@ static normalizeBSNLPlan(plan: BSNLPlan, index: number): NormalizedPlan {
 ## Key Insights for Developers
 
 ### Complexity
-- **Most complex regional structure** - 34 circles with varying availability
+- **Most complex regional structure** - 38 circles with varying availability
 - **Special conditions** - GP2, JK20, inactive customers
 - **Freebies validity** - Unique dual-validity concept
 

@@ -20,7 +20,7 @@ export interface BaseUserPreferences {
   isJK20?: boolean;
   nightUnlimitedOnly?: boolean;
   // Jio special category filters
-  includeDataPacks?: boolean;
+  includeDataPacks?: boolean;  // Jio data-only packs AND add-ons/memberships
   includeJioPhone?: boolean;
   includeJioPhonePrima?: boolean;
   includeJioBharat?: boolean;
@@ -64,6 +64,7 @@ export interface AirtelPlan {
     services: string[];
   };
   fiveG: boolean;
+  available_circles: string[];  // Airtel circle codes (2026-10: plans vary by circle)
 }
 
 // Jio Plan Structure
@@ -109,6 +110,7 @@ export interface JioPlan {
     isJioPhoneDataAddon: boolean;
     isJioBharatPhone: boolean;
     isGaming: boolean;
+    isAddOn?: boolean;  // No calls and no data: membership / service add-on (e.g. JIO PRIME)
   };
 }
 
@@ -274,6 +276,7 @@ export interface NormalizedPlan {
   isCalendarMonth?: boolean;  // Jio plans with "Calendar Month" validity
   isDataAddon?: boolean;  // Airtel data-only add-on plans
   isDataPack?: boolean;  // Jio data-only packs (no voice, requires active plan)
+  isAddOn?: boolean;  // Jio memberships / service add-ons (no calls, no data)
   has5G?: boolean;  // Alias for fiveG for cleaner access
   isCUGPolice?: boolean;  // BSNL CUG Police plans (for TN Police)
 }

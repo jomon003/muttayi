@@ -21,7 +21,7 @@ import { BaseUserPreferences, SortOption, NormalizedPlan, Operator } from '../..
 import { PlanDataService, PlanFilter } from '../../utils/planService';
 import PlanCard from '../results/PlanCard';
 import { useOperator } from '../../context/OperatorContext';
-import { operatorNeedsCircleSelection } from '../../constants/operators';
+import { operatorNeedsCircleSelection, getOperatorInfo } from '../../constants/operators';
 
 interface FilteredPlanSearchProps {
   preferences: BaseUserPreferences;
@@ -154,7 +154,7 @@ const FilteredPlanSearch: React.FC<FilteredPlanSearchProps> = ({
             Select Your Circle
           </Typography>
           <Typography variant="body2" color="text.secondary" sx={{ maxWidth: 400 }}>
-            {selectedOperator === 'vi' ? 'Vi' : selectedOperator === 'bsnl' ? 'BSNL' : 'This operator'} plans vary by region. Please select your circle/state from the filters to view available plans.
+            {selectedOperator ? getOperatorInfo(selectedOperator)?.name ?? 'This operator' : 'This operator'} plans vary by region. Please select your circle/state from the filters to view available plans.
           </Typography>
         </Box>
       )}

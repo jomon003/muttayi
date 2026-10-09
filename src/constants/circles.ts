@@ -69,12 +69,38 @@ export const VI_CIRCLES: Circle[] = [
   { code: 'WB', name: 'West Bengal' },
 ];
 
+// Airtel Circles (2026-10: Airtel plans differ by circle) - codes must match airtel_db.json available_circles
+export const AIRTEL_CIRCLES: Circle[] = [
+  { code: 'AP', name: 'Andhra Pradesh & Telangana' },
+  { code: 'AS', name: 'Assam' },
+  { code: 'BH', name: 'Bihar & Jharkhand' },
+  { code: 'DL', name: 'Delhi NCR' },
+  { code: 'GJ', name: 'Gujarat' },
+  { code: 'HR', name: 'Haryana' },
+  { code: 'HP', name: 'Himachal Pradesh' },
+  { code: 'JK', name: 'Jammu and Kashmir' },
+  { code: 'KA', name: 'Karnataka' },
+  { code: 'KL', name: 'Kerala' },
+  { code: 'KO', name: 'Kolkata' },
+  { code: 'MH', name: 'Maharashtra and Goa' },
+  { code: 'MP', name: 'Madhya Pradesh & Chhattisgarh' },
+  { code: 'MU', name: 'Mumbai' },
+  { code: 'NE', name: 'North East' },
+  { code: 'OD', name: 'Odisha' },
+  { code: 'PB', name: 'Punjab' },
+  { code: 'RJ', name: 'Rajasthan' },
+  { code: 'TN', name: 'Tamil Nadu (incl. Chennai)' },
+  { code: 'UE', name: 'UP East' },
+  { code: 'UW', name: 'UP West & Uttarakhand' },
+  { code: 'WB', name: 'West Bengal' },
+];
+
 // Map operators to circles (all operators that require circle selection)
 export const OPERATOR_CIRCLES_MAP: Record<Operator, Circle[] | null> = {
   'bsnl': BSNL_CIRCLES,
   'vi': VI_CIRCLES,
-  'airtel': null, // Airtel doesn't require circle selection
-  'jio': null,    // Jio doesn't require circle selection
+  'airtel': AIRTEL_CIRCLES,
+  'jio': null,    // Jio plans are pan-India
 };
 
 // Function to get circles for an operator

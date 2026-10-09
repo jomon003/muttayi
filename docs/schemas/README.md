@@ -114,15 +114,16 @@ Each operator has unique selling points reflected in their schema:
 |----------|----------------|
 | **Airtel** | Simplest structure, entertainment category |
 | **Jio** | Plan type flags, unlimited 5G, JioAICloud |
-| **BSNL** | GP2/JK20 plans, freebies validity, 34 circles |
+| **BSNL** | GP2/JK20 plans, freebies validity, 38 circles |
 | **Vi** | Night data, backup data, weekend rollover |
 
 ### 3. Circle-Based Filtering
 
-**BSNL** and **Vi** require circle selection:
-- BSNL: 34 circles (most comprehensive)
+**Airtel**, **BSNL** and **Vi** require circle selection:
+- BSNL: 38 circles (most comprehensive)
 - Vi: 23 circles (major markets)
-- Airtel/Jio: No circle filtering (pan-India)
+- Airtel: 22 circles (since 2026-10)
+- Jio: No circle filtering (pan-India)
 
 ### 4. Special Conditions
 
@@ -200,7 +201,7 @@ src/utils/planService.ts
 | **Max Validity** | 365 | 365 | 395 | 365 | 395 |
 | **5G Support** | ✅ | ✅ | ❌ | ⚠️ | 3/4 |
 | **OTT Bundles** | ✅ | ✅ | ❌ | ✅ | 3/4 |
-| **Circle Filter** | ❌ | ❌ | ✅ | ✅ | 2/4 |
+| **Circle Filter** | ✅ | ❌ | ✅ | ✅ | 3/4 |
 
 ---
 
@@ -271,7 +272,7 @@ src/utils/planService.ts
 ### Unit Tests Should Cover:
 - [ ] Normalization for each operator
 - [ ] OTT extraction/conversion
-- [ ] Circle filtering (BSNL, Vi)
+- [ ] Circle filtering (Airtel, BSNL, Vi)
 - [ ] Special conditions (GP2, JK20)
 - [ ] Data allocation parsing
 - [ ] Edge cases (null values, missing fields)
@@ -365,7 +366,7 @@ describe('BSNL Normalization', () => {
 - Don't access raw operator fields directly in UI
 - Don't assume all fields are present
 - Don't hardcode operator-specific logic outside normalizers
-- Don't skip circle filtering for BSNL/Vi
+- Don't skip circle filtering for Airtel/BSNL/Vi
 - Don't show GP2/JK20 plans without user opt-in
 - Don't ignore freebies validity for BSNL
 

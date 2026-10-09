@@ -115,6 +115,12 @@ const PlanCard: React.FC<PlanCardProps> = ({ plan, selectedOTT = [], selectedCir
       'pocketfilms': 'Pocket Films',
       'timesplay': 'TimesPlay',
       'kanchhalannka': 'Kanccha Lannka',
+      'kancchalannka': 'Kanccha Lannka',
+      'youtubepremium': 'YouTube Premium',
+      'etvwin': 'ETV Win',
+      'tarangplus': 'Tarang Plus',
+      'sunnxt': 'Sun NXT',
+      'hoichoi': 'Hoichoi',
     };
 
     const key = normalizeOTTKey(service);
@@ -396,6 +402,14 @@ const PlanCard: React.FC<PlanCardProps> = ({ plan, selectedOTT = [], selectedCir
                 <InfoIcon sx={{ fontSize: 16, color: '#f59e0b', mt: 0.2 }} />
                 <Typography variant="caption" color="#92400e" sx={{ fontWeight: 500, lineHeight: 1.4 }}>
                   Data Add-on Pack. Requires an active base plan to work.
+                </Typography>
+              </Box>
+            )}
+            {plan.isAddOn && (
+              <Box sx={{ display: 'flex', gap: 1, p: 1.5, bgcolor: alpha('#f59e0b', 0.05), borderRadius: 2, border: '1px solid', borderColor: alpha('#f59e0b', 0.1) }}>
+                <InfoIcon sx={{ fontSize: 16, color: '#f59e0b', mt: 0.2 }} />
+                <Typography variant="caption" color="#92400e" sx={{ fontWeight: 500, lineHeight: 1.4 }}>
+                  Add-on / membership. No calls or data. Requires an active base plan.
                 </Typography>
               </Box>
             )}
